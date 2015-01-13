@@ -1,0 +1,6571 @@
+{
+    "ability_aptitude": {
+        "index": "ability_aptitude",
+        "name": "Ability Aptitude",
+        "source": "Mage the Ascension [pg.291]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "ability_deficit": {
+        "index": "ability_deficit",
+        "name": "Ability Deficit",
+        "source": "Mage the Ascension [pg.294]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "absent_minded": {
+        "index": "absent_minded",
+        "name": "Absent Minded",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "abusive_partner": {
+        "index": "abusive_partner",
+        "name": "Abusive Partner",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "acute_sense": {
+        "index": "acute_sense",
+        "name": "Acute Sense",
+        "source": "Vampire 20th [pg.288]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["1",
+                "3"]
+        }
+    },
+    "addiction": {
+        "index": "addiction",
+        "name": "Addiction",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-3"]
+        }
+    },
+    "additional_discipline": {
+        "index": "additional_discipline",
+        "name": "Additional Discipline",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "aging": {
+        "index": "aging",
+        "name": "Aging",
+        "source": "Mage the Ascension [pg.290]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "akashic_awareness": {
+        "index": "akashic_awareness",
+        "name": "Akashic Awareness",
+        "source": "Tradition Book Akashic Brotherhood [pg.76]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "1",
+            "max": "5"
+        }
+    },
+    "alimony_payments": {
+        "index": "alimony_payments",
+        "name": "Alimony Payments",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "alimony_recipient": {
+        "index": "alimony_recipient",
+        "name": "Alimony Recipient",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "1",
+            "max": "3"
+        }
+    },
+    "allergies": {
+        "index": "allergies",
+        "name": "Allergies",
+        "source": "Demon Player's Guide [pg.85]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "ambidextrous": {
+        "index": "ambidextrous",
+        "name": "Ambidextrous",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "amnesia": {
+        "index": "amnesia",
+        "name": "Amnesia",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "anachronism": {
+        "index": "anachronism",
+        "name": "Anachronism",
+        "source": "Guide to the Traditions [pg.229]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-3",
+            "max": "-1"
+        }
+    },
+    "ancient_animosity": {
+        "index": "ancient_animosity",
+        "name": "Ancient Animosity",
+        "source": "Demon Player's Guide [pg.84]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-3",
+            "max": "-1"
+        }
+    },
+    "angelic_aura": {
+        "index": "angelic_aura",
+        "name": "Angelic Aura",
+        "source": "Demon Player's Guide [pg.76]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "angelic_gaze": {
+        "index": "angelic_gaze",
+        "name": "Angelic Gaze",
+        "source": "Demon Player's Guide [pg.76]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "anosmia": {
+        "index": "anosmia",
+        "name": "Anosmia",
+        "source": "Clanbook Nosferatu [pg.73]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "approachable": {
+        "index": "approachable",
+        "name": "Approachable",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "arthritic": {
+        "index": "arthritic",
+        "name": "Arthritic",
+        "source": "Demon Player's Guide [pg.85]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "astral_vigor": {
+        "index": "astral_vigor",
+        "name": "Astral Vigor",
+        "source": "Infinite Tapestry [pg.187]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "atavistic_form": {
+        "index": "atavistic_form",
+        "name": "Atavistic Form",
+        "source": "Demon Player's Guide [pg.76]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "attention-deficit_disorder": {
+        "index": "attention-deficit_disorder",
+        "name": "Attention-Deficit Disorder",
+        "source": "Demon Player's Guide [pg.93]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "attuned_taste": {
+        "index": "attuned_taste",
+        "name": "Attuned Taste",
+        "source": "Clanbook Tremere [pg.66]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "audit": {
+        "index": "audit",
+        "name": "Audit",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "avatar_companion": {
+        "index": "avatar_companion",
+        "name": "Avatar Companion",
+        "source": "Mage the Ascension [pg.297]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "bad_liar": {
+        "index": "bad_liar",
+        "name": "Bad Liar",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "bad_sight": {
+        "index": "bad_sight",
+        "name": "Bad Sight",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-3"]
+        }
+    },
+    "balding": {
+        "index": "balding",
+        "name": "Balding",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "beacon_of_the_unholy": {
+        "index": "beacon_of_the_unholy",
+        "name": "Beacon of the Unholy",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "beast_within": {
+        "index": "beast_within",
+        "name": "Beast Within",
+        "source": "Guide to the Traditions [pg.231]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "bedeviled": {
+        "index": "bedeviled",
+        "name": "Bedeviled",
+        "source": "Guide to the Traditions [pg.231]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-6"
+        }
+    },
+    "benevolent_blood": {
+        "index": "benevolent_blood",
+        "name": "Benevolent Blood",
+        "source": "Clanbook Malkavian [pg.64]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "berserker": {
+        "index": "berserker",
+        "name": "Berserker",
+        "source": "Mage the Ascension [pg.291]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "best_friend": {
+        "index": "best_friend",
+        "name": "Best Friend",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "big_mouth": {
+        "index": "big_mouth",
+        "name": "Big Mouth",
+        "source": "Sorcerer Revised [pg.57]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "bigot": {
+        "index": "bigot",
+        "name": "Bigot",
+        "source": "Guide to the Technocracy [pg.167]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "black_and_white": {
+        "index": "black_and_white",
+        "name": "Black and White",
+        "source": "Sorcerer Revised [pg.54]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "blessed": {
+        "index": "blessed",
+        "name": "Blessed",
+        "source": "Sins of the Blood [pg.102]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "blind": {
+        "index": "blind",
+        "name": "Blind",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-6"
+        }
+    },
+    "blood-hungry_soul": {
+        "index": "blood-hungry_soul",
+        "name": "Blood-Hungry Soul",
+        "source": "Blood Treachery [pg.86]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-2"
+        }
+    },
+    "blood_hunted": {
+        "index": "blood_hunted",
+        "name": "Blood Hunted",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-4",
+                "-6"]
+        }
+    },
+    "blood_magic": {
+        "index": "blood_magic",
+        "name": "Blood Magic",
+        "source": "Sorcerer Revised [pg.56]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "blunt_fangs": {
+        "index": "blunt_fangs",
+        "name": "Blunt Fangs",
+        "source": "Clanbook Nosferatu [pg.72]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "blush_of_health": {
+        "index": "blush_of_health",
+        "name": "Blush of Health",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "boon": {
+        "index": "boon",
+        "name": "Boon",
+        "source": "Vampire 20th [pg.488]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "1",
+            "max": "6"
+        }
+    },
+    "botched_presentation": {
+        "index": "botched_presentation",
+        "name": "Botched Presentation",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "bound": {
+        "index": "bound",
+        "name": "Bound",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "bound_by_the_law_of_three": {
+        "index": "bound_by_the_law_of_three",
+        "name": "Bound by the Law of Three",
+        "source": "Tradition Book Verbena [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "bound_to_the_council": {
+        "index": "bound_to_the_council",
+        "name": "Bound to the Council",
+        "source": "Clanbook Tremere [pg.67]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "broken_bond": {
+        "index": "broken_bond",
+        "name": "Broken Bond",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "bruiser": {
+        "index": "bruiser",
+        "name": "Bruiser",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "bully": {
+        "index": "bully",
+        "name": "Bully",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "bullyboy": {
+        "index": "bullyboy",
+        "name": "Bullyboy",
+        "source": "Vampire 20th [pg.488]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "bundle_of_energy": {
+        "index": "bundle_of_energy",
+        "name": "Bundle of Energy",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "calling_card": {
+        "index": "calling_card",
+        "name": "Calling Card",
+        "source": "Tradition Book Euthanatos [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "calm_heart": {
+        "index": "calm_heart",
+        "name": "Calm Heart",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "can-t_cross_running_water": {
+        "index": "can-t_cross_running_water",
+        "name": "Can't Cross Running Water",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "cannot_enter_holy_ground": {
+        "index": "cannot_enter_holy_ground",
+        "name": "Cannot Enter Holy Ground",
+        "source": "Demon Player's Guide [pg.84]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "cast_no_reflection": {
+        "index": "cast_no_reflection",
+        "name": "Cast No Reflection",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "cast_no_shadow_or_reflection": {
+        "index": "cast_no_shadow_or_reflection",
+        "name": "Cast No Shadow or Reflection",
+        "source": "Guide to the Traditions [pg.230]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "catlike_balance": {
+        "index": "catlike_balance",
+        "name": "Catlike Balance",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "catnapper": {
+        "index": "catnapper",
+        "name": "Catnapper",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "catspaw": {
+        "index": "catspaw",
+        "name": "Catspaw",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "celestial_affinity": {
+        "index": "celestial_affinity",
+        "name": "Celestial Affinity",
+        "source": "Blood Treachery [pg.85]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "child": {
+        "index": "child",
+        "name": "Child",
+        "source": "Vampire 20th [pg.482]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "children": {
+        "index": "children",
+        "name": "Children",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "chronic_illness": {
+        "index": "chronic_illness",
+        "name": "Chronic Illness",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "chronic_pessimist": {
+        "index": "chronic_pessimist",
+        "name": "Chronic Pessimist",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "chronically_late": {
+        "index": "chronically_late",
+        "name": "Chronically Late",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "chronically_shy": {
+        "index": "chronically_shy",
+        "name": "Chronically Shy",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "circumspect_avatar": {
+        "index": "circumspect_avatar",
+        "name": "Circumspect Avatar",
+        "source": "Mage the Ascension [pg.294]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "clan_emnity": {
+        "index": "clan_emnity",
+        "name": "Clan Emnity",
+        "source": "Vampire 20th [pg.492]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "clan_friendship": {
+        "index": "clan_friendship",
+        "name": "Clan Friendship",
+        "source": "Vampire 20th [pg.489]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "clannish_family": {
+        "index": "clannish_family",
+        "name": "Clannish Family",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "claws-fangs-horns-hooves-barbed_tail": {
+        "index": "claws-fangs-horns-hooves-barbed_tail",
+        "name": "Claws\/Fangs\/Horns\/Hooves\/Barbed Tail",
+        "source": "Guide to the Traditions [pg.228]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["3",
+                "5",
+                "7",
+                "9",
+                "11"]
+        }
+    },
+    "cloak_of_the_seasons": {
+        "index": "cloak_of_the_seasons",
+        "name": "Cloak of the Seasons",
+        "source": "Tradition Book Verbena [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "code_of_honor": {
+        "index": "code_of_honor",
+        "name": "Code of Honor",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "cold_breeze": {
+        "index": "cold_breeze",
+        "name": "Cold Breeze",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "coldly_logical": {
+        "index": "coldly_logical",
+        "name": "Coldly Logical",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "collaborator": {
+        "index": "collaborator",
+        "name": "Collaborator",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "color_blind": {
+        "index": "color_blind",
+        "name": "Color Blind",
+        "source": "Demon Player's Guide [pg.85]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "common_sense": {
+        "index": "common_sense",
+        "name": "Common Sense",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "compassionate": {
+        "index": "compassionate",
+        "name": "Compassionate",
+        "source": "Clanbook Brujah [pg.68]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "compulsion": {
+        "index": "compulsion",
+        "name": "Compulsion",
+        "source": "Mage the Ascension [pg.292]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-4",
+            "max": "-1"
+        }
+    },
+    "compulsive_liar": {
+        "index": "compulsive_liar",
+        "name": "Compulsive Liar",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "concentration": {
+        "index": "concentration",
+        "name": "Concentration",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "conditional_magic": {
+        "index": "conditional_magic",
+        "name": "Conditional Magic",
+        "source": "Mage the Ascension [pg.294]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "1",
+            "max": "6"
+        }
+    },
+    "confidence": {
+        "index": "confidence",
+        "name": "Confidence",
+        "source": "Guide to the Technocracy [pg.166]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "consanguineous_resistance": {
+        "index": "consanguineous_resistance",
+        "name": "Consanguineous Resistance",
+        "source": "Clanbook Giovanni [pg.77]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "conspicuous_consumer": {
+        "index": "conspicuous_consumer",
+        "name": "Conspicuous Consumer",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "conspicuous_consumption": {
+        "index": "conspicuous_consumption",
+        "name": "Conspicuous Consumption",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "construct": {
+        "index": "construct",
+        "name": "Construct",
+        "source": "Guide to the Technocracy [pg.167]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "construct_-_dissolve": {
+        "index": "construct_-_dissolve",
+        "name": "Construct - Dissolve",
+        "source": "Guide to the Technocracy [pg. 132]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "construct_-_short_life": {
+        "index": "construct_-_short_life",
+        "name": "Construct - Short Life",
+        "source": "Guide to the Technocracy [pg. 132]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "construct_-_soulless": {
+        "index": "construct_-_soulless",
+        "name": "Construct - Soulless",
+        "source": "Guide to the Technocracy [pg. 132]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-7"
+        }
+    },
+    "construct_-_subject_to_paradox": {
+        "index": "construct_-_subject_to_paradox",
+        "name": "Construct - Subject to Paradox",
+        "source": "Guide to the Technocracy [pg. 132]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "contagious": {
+        "index": "contagious",
+        "name": "Contagious",
+        "source": "Clanbook Nosferatu [pg.74]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "controllable_night_sight": {
+        "index": "controllable_night_sight",
+        "name": "Controllable Night Sight",
+        "source": "Clanbook Lasombra [pg.63]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "corporate_savvy": {
+        "index": "corporate_savvy",
+        "name": "Corporate Savvy",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "criminal_entanglements": {
+        "index": "criminal_entanglements",
+        "name": "Criminal Entanglements",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "criminal_record": {
+        "index": "criminal_record",
+        "name": "Criminal Record",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "crippled_limb": {
+        "index": "crippled_limb",
+        "name": "Crippled Limb",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "crucial_component": {
+        "index": "crucial_component",
+        "name": "Crucial Component",
+        "source": "Mage the Ascension [pg.299]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-2"
+        }
+    },
+    "crude": {
+        "index": "crude",
+        "name": "Crude",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "cultural_snob": {
+        "index": "cultural_snob",
+        "name": "Cultural Snob",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "curse_of_the_other_worlds": {
+        "index": "curse_of_the_other_worlds",
+        "name": "Curse of the Other Worlds",
+        "source": "Infinite Tapestry [pg.188]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "cursed": {
+        "index": "cursed",
+        "name": "Cursed",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-1"
+        }
+    },
+    "cursed_by_god": {
+        "index": "cursed_by_god",
+        "name": "Cursed By God",
+        "source": "Demon Player's Guide [pg.84]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-1"
+        }
+    },
+    "cyclic_magic": {
+        "index": "cyclic_magic",
+        "name": "Cyclic Magic",
+        "source": "Mage the Ascension [pg.295]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "daredevil": {
+        "index": "daredevil",
+        "name": "Daredevil",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "dark_fate": {
+        "index": "dark_fate",
+        "name": "Dark Fate",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "dark_secret": {
+        "index": "dark_secret",
+        "name": "Dark Secret",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "dead_passion": {
+        "index": "dead_passion",
+        "name": "Dead Passion",
+        "source": "Tradition Book Cult of Ecstasy [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "deadened_nerves": {
+        "index": "deadened_nerves",
+        "name": "Deadened Nerves",
+        "source": "Clanbook Malkavian [pg.65]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "deaf": {
+        "index": "deaf",
+        "name": "Deaf",
+        "source": "Vampire 20th [pg.483]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "death-s_reflection": {
+        "index": "death-s_reflection",
+        "name": "Death's Reflection",
+        "source": "Clanbook Lasombra [pg.65]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "deathsight": {
+        "index": "deathsight",
+        "name": "Deathsight",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "deathwalker": {
+        "index": "deathwalker",
+        "name": "Deathwalker",
+        "source": "Tradition Book Euthanatos [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "debt_of_gratitude": {
+        "index": "debt_of_gratitude",
+        "name": "Debt of Gratitude",
+        "source": "Demon Player's Guide [pg.76]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "1",
+            "max": "3"
+        }
+    },
+    "deceptive_aura": {
+        "index": "deceptive_aura",
+        "name": "Deceptive Aura",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "deep_sleeper": {
+        "index": "deep_sleeper",
+        "name": "Deep Sleeper",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "defective_sense": {
+        "index": "defective_sense",
+        "name": "Defective Sense",
+        "source": "Mage the Ascension [pg.288]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "defensive": {
+        "index": "defensive",
+        "name": "Defensive",
+        "source": "Demon Player's Guide [pg.88]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "deformity": {
+        "index": "deformity",
+        "name": "Deformity",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "degeneration": {
+        "index": "degeneration",
+        "name": "Degeneration",
+        "source": "Mage the Ascension [pg.289]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-3",
+                "-6",
+                "-9"]
+        }
+    },
+    "demanding_career": {
+        "index": "demanding_career",
+        "name": "Demanding Career",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "demented_eidolon": {
+        "index": "demented_eidolon",
+        "name": "Demented Eidolon",
+        "source": "Guide to the Technocracy [pg.171]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "depression": {
+        "index": "depression",
+        "name": "Depression",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "deranged": {
+        "index": "deranged",
+        "name": "Deranged",
+        "source": "Mage the Ascension [pg.293]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "detached": {
+        "index": "detached",
+        "name": "Detached",
+        "source": "Sorcerer Revised [pg.54]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "determined": {
+        "index": "determined",
+        "name": "Determined",
+        "source": "Demon Player's Guide [pg.82]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "devil-s_mark": {
+        "index": "devil-s_mark",
+        "name": "Devil's Mark",
+        "source": "Sins of the Blood [pg.102]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-7"]
+        }
+    },
+    "diminished_attributes": {
+        "index": "diminished_attributes",
+        "name": "Diminished Attributes",
+        "source": "Mage the Ascension [pg.289]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-3",
+                "-6",
+                "-9"]
+        }
+    },
+    "direction_sense": {
+        "index": "direction_sense",
+        "name": "Direction Sense",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "discordant": {
+        "index": "discordant",
+        "name": "Discordant",
+        "source": "Tradition Book Celestial Chorus [pg.62]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-3"]
+        }
+    },
+    "disease_carrier": {
+        "index": "disease_carrier",
+        "name": "Disease Carrier",
+        "source": "Vampire 20th [pg.483]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "disembodied_mentor": {
+        "index": "disembodied_mentor",
+        "name": "Disembodied Mentor",
+        "source": "Clanbook Malkavian [pg.65]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "disfigured": {
+        "index": "disfigured",
+        "name": "Disfigured",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "disgrace_to_the_blood": {
+        "index": "disgrace_to_the_blood",
+        "name": "Disgrace to the Blood",
+        "source": "Vampire 20th [pg.492]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "distinguishing_characteristic": {
+        "index": "distinguishing_characteristic",
+        "name": "Distinguishing Characteristic",
+        "source": "Demon Player's Guide [pg.85]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-2"]
+        }
+    },
+    "distorted_image": {
+        "index": "distorted_image",
+        "name": "Distorted Image",
+        "source": "Bitter Road [pg.118]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "dogged_by_fringe_media": {
+        "index": "dogged_by_fringe_media",
+        "name": "Dogged by Fringe Media",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "dogmatic": {
+        "index": "dogmatic",
+        "name": "Dogmatic",
+        "source": "Tradition Book Celestial Chorus [pg.62]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "domain": {
+        "index": "domain",
+        "name": "Domain",
+        "source": "Players Guide to the Camarilla [pg.76]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "2",
+            "max": "4"
+        }
+    },
+    "double_betrayer": {
+        "index": "double_betrayer",
+        "name": "Double Betrayer",
+        "source": "Clanbook Tremere [pg.67]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "drahma-s_voice": {
+        "index": "drahma-s_voice",
+        "name": "Drahma's Voice",
+        "source": "Tradition Book Akashic Brotherhood [pg.59]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "dreams_of_the_past": {
+        "index": "dreams_of_the_past",
+        "name": "Dreams of the Past",
+        "source": "Demon Player's Guide [pg.76]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "driven": {
+        "index": "driven",
+        "name": "Driven",
+        "source": "Blood Treachery [pg.85]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "dual_nationality": {
+        "index": "dual_nationality",
+        "name": "Dual Nationality",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "dual_traditions": {
+        "index": "dual_traditions",
+        "name": "Dual Traditions",
+        "source": "Mage the Ascension [pg.298]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "dulled_bite": {
+        "index": "dulled_bite",
+        "name": "Dulled Bite",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "dynamic_personality": {
+        "index": "dynamic_personality",
+        "name": "Dynamic Personality",
+        "source": "Clanbook Brujah [pg.68]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "dyslexic": {
+        "index": "dyslexic",
+        "name": "Dyslexic",
+        "source": "Demon Player's Guide [pg.93]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "early_adopter": {
+        "index": "early_adopter",
+        "name": "Early Adopter",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "early_riser": {
+        "index": "early_riser",
+        "name": "Early Riser",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "eat_food": {
+        "index": "eat_food",
+        "name": "Eat Food",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "eating_disorder": {
+        "index": "eating_disorder",
+        "name": "Eating Disorder",
+        "source": "Demon Player's Guide [pg.93]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "eccentric_appearance": {
+        "index": "eccentric_appearance",
+        "name": "Eccentric Appearance",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "echoes": {
+        "index": "echoes",
+        "name": "Echoes",
+        "source": "Mage the Ascension [pg.298]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-1"
+        }
+    },
+    "ecumenist": {
+        "index": "ecumenist",
+        "name": "Ecumenist",
+        "source": "Tradition Book Celestial Chorus [pg.62]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "eerie_presence": {
+        "index": "eerie_presence",
+        "name": "Eerie Presence",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "efficient_digestion": {
+        "index": "efficient_digestion",
+        "name": "Efficient Digestion",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "eidetic_memory": {
+        "index": "eidetic_memory",
+        "name": "Eidetic Memory",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "elderly": {
+        "index": "elderly",
+        "name": "Elderly",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "elysium_regular": {
+        "index": "elysium_regular",
+        "name": "Elysium Regular",
+        "source": "Vampire 20th [pg.487]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "embraced_without_the_cup": {
+        "index": "embraced_without_the_cup",
+        "name": "Embraced Without the Cup",
+        "source": "Clanbook Tremere [pg.67]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "enchanting_voice": {
+        "index": "enchanting_voice",
+        "name": "Enchanting Voice",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "enemy": {
+        "index": "enemy",
+        "name": "Enemy",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-1"
+        }
+    },
+    "enemy_brood": {
+        "index": "enemy_brood",
+        "name": "Enemy Brood",
+        "source": "Clanbook Nosferatu [pg.73]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "escaped_target": {
+        "index": "escaped_target",
+        "name": "Escaped Target",
+        "source": "Vampire 20th [pg.491]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "expendable": {
+        "index": "expendable",
+        "name": "Expendable",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "eye_for_a_bargain": {
+        "index": "eye_for_a_bargain",
+        "name": "Eye for a Bargain",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "faction_favorite": {
+        "index": "faction_favorite",
+        "name": "Faction Favorite",
+        "source": "Sorcerer Revised [pg.53]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "faction_founder": {
+        "index": "faction_founder",
+        "name": "Faction Founder",
+        "source": "Bitter Road [pg.117]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "fae_blood": {
+        "index": "fae_blood",
+        "name": "Fae Blood",
+        "source": "Mage the Ascension [pg.295]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "failure": {
+        "index": "failure",
+        "name": "Failure",
+        "source": "Vampire 20th [pg.491]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "faint_of_heart": {
+        "index": "faint_of_heart",
+        "name": "Faint of Heart",
+        "source": "Demon Player's Guide [pg.93]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "false_reflection": {
+        "index": "false_reflection",
+        "name": "False Reflection",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "famous_liege": {
+        "index": "famous_liege",
+        "name": "Famous Liege",
+        "source": "Demon Player's Guide [pg.76]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "fashion_sense": {
+        "index": "fashion_sense",
+        "name": "Fashion Sense",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "fast_learner": {
+        "index": "fast_learner",
+        "name": "Fast Learner",
+        "source": "Demon Player's Guide [pg.82]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "fast_reader": {
+        "index": "fast_reader",
+        "name": "Fast Reader",
+        "source": "Demon Player's Guide [pg.82]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "faulty_enhancements": {
+        "index": "faulty_enhancements",
+        "name": "Faulty Enhancements",
+        "source": "Guide to the Technocracy [pg.170]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-2"
+        }
+    },
+    "faust-s_burden": {
+        "index": "faust-s_burden",
+        "name": "Faust's Burden",
+        "source": "Blood Treachery [pg.87]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-6",
+            "max": "-3"
+        }
+    },
+    "fifteenth_generation": {
+        "index": "fifteenth_generation",
+        "name": "Fifteenth Generation",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "fifth_degree": {
+        "index": "fifth_degree",
+        "name": "Fifth Degree",
+        "source": "Guide to the Technocracy [pg.171]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "firearms_license": {
+        "index": "firearms_license",
+        "name": "Firearms License",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "flashbacks": {
+        "index": "flashbacks",
+        "name": "Flashbacks",
+        "source": "Vampire 20th [pg.487]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "6"
+        }
+    },
+    "flesh_of_the_corpse": {
+        "index": "flesh_of_the_corpse",
+        "name": "Flesh of the Corpse",
+        "source": "Vampire 20th [pg.483]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "flexible_job": {
+        "index": "flexible_job",
+        "name": "Flexible Job",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "flirt": {
+        "index": "flirt",
+        "name": "Flirt",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "folk_hero": {
+        "index": "folk_hero",
+        "name": "Folk Hero",
+        "source": "Tradition Book Akashic Brotherhood [pg.59]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["4",
+                "6"]
+        }
+    },
+    "force_of_spirit": {
+        "index": "force_of_spirit",
+        "name": "Force of Spirit",
+        "source": "Sorcerer Revised [pg.54]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "foreigner": {
+        "index": "foreigner",
+        "name": "Foreigner",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "forgettable": {
+        "index": "forgettable",
+        "name": "Forgettable",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "former_ghoul": {
+        "index": "former_ghoul",
+        "name": "Former Ghoul",
+        "source": "Vampire 20th [pg.487]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "former_prince": {
+        "index": "former_prince",
+        "name": "Former Prince",
+        "source": "Vampire 20th [pg.492]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "foul_blood": {
+        "index": "foul_blood",
+        "name": "Foul Blood",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "fourteenth_generation": {
+        "index": "fourteenth_generation",
+        "name": "Fourteenth Generation",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "friend_of_the_underground": {
+        "index": "friend_of_the_underground",
+        "name": "Friend of the Underground",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "friendly_face": {
+        "index": "friendly_face",
+        "name": "Friendly Face",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "funny": {
+        "index": "funny",
+        "name": "Funny",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "gambling_addict": {
+        "index": "gambling_addict",
+        "name": "Gambling Addict",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "gaping_maw": {
+        "index": "gaping_maw",
+        "name": "Gaping Maw",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "geasa": {
+        "index": "geasa",
+        "name": "Geasa",
+        "source": "Mage the Ascension [pg.298]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-1"
+        }
+    },
+    "ghoul": {
+        "index": "ghoul",
+        "name": "Ghoul",
+        "source": "Mage the Ascension [pg.296]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "ghoulish_sense_of_humor": {
+        "index": "ghoulish_sense_of_humor",
+        "name": "Ghoulish Sense of Humor",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "glowing_eyes": {
+        "index": "glowing_eyes",
+        "name": "Glowing Eyes",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "good_credit_rating": {
+        "index": "good_credit_rating",
+        "name": "Good Credit Rating",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "good_listener": {
+        "index": "good_listener",
+        "name": "Good Listener",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "good_map_reader": {
+        "index": "good_map_reader",
+        "name": "Good Map Reader",
+        "source": "Demon Player's Guide [pg.81]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "good_night_vision": {
+        "index": "good_night_vision",
+        "name": "Good Night Vision",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "good_recognition": {
+        "index": "good_recognition",
+        "name": "Good Recognition",
+        "source": "Demon Player's Guide [pg.82]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "good_right_hook": {
+        "index": "good_right_hook",
+        "name": "Good Right Hook",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "good_sense_of_character": {
+        "index": "good_sense_of_character",
+        "name": "Good Sense of Character",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "good_taste": {
+        "index": "good_taste",
+        "name": "Good Taste",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "gossip": {
+        "index": "gossip",
+        "name": "Gossip",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "great_liar": {
+        "index": "great_liar",
+        "name": "Great Liar",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "greedy": {
+        "index": "greedy",
+        "name": "Greedy",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "green_thumb": {
+        "index": "green_thumb",
+        "name": "Green Thumb",
+        "source": "Mage the Ascension [pg.294]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "grip_of_the_damned": {
+        "index": "grip_of_the_damned",
+        "name": "Grip of the Damned",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "guilt-wracked": {
+        "index": "guilt-wracked",
+        "name": "Guilt-Wracked",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "gullible": {
+        "index": "gullible",
+        "name": "Gullible",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "hard_of_hearing": {
+        "index": "hard_of_hearing",
+        "name": "Hard of Hearing",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "harmless": {
+        "index": "harmless",
+        "name": "Harmless",
+        "source": "Vampire 20th [pg.487]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "harpy": {
+        "index": "harpy",
+        "name": "Harpy",
+        "source": "Players Guide to the Camarilla [pg.76]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "haunted": {
+        "index": "haunted",
+        "name": "Haunted",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "healing_touch": {
+        "index": "healing_touch",
+        "name": "Healing Touch",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "healthy_cynicism": {
+        "index": "healthy_cynicism",
+        "name": "Healthy Cynicism",
+        "source": "Demon Player's Guide [pg.82]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "heavy_sleeper": {
+        "index": "heavy_sleeper",
+        "name": "Heavy Sleeper",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "hidden_diablerie": {
+        "index": "hidden_diablerie",
+        "name": "Hidden Diablerie",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "holder_of_office": {
+        "index": "holder_of_office",
+        "name": "Holder of Office",
+        "source": "Players Guide to the Camarilla [pg.76]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "3",
+            "max": "5"
+        }
+    },
+    "hollow_leg": {
+        "index": "hollow_leg",
+        "name": "Hollow Leg",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "homeless": {
+        "index": "homeless",
+        "name": "Homeless",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "honest_to_a_fault": {
+        "index": "honest_to_a_fault",
+        "name": "Honest to a Fault",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "honored_lineage": {
+        "index": "honored_lineage",
+        "name": "Honored Lineage",
+        "source": "Tradition Book Verbena [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "horrifying": {
+        "index": "horrifying",
+        "name": "Horrifying",
+        "source": "Bitter Road [pg.118]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-7"
+        }
+    },
+    "huge_size": {
+        "index": "huge_size",
+        "name": "Huge Size",
+        "source": "Vampire 20th [pg.480]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "hunted": {
+        "index": "hunted",
+        "name": "Hunted",
+        "source": "Vampire 20th [pg.491]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "hunted_like_a_dog": {
+        "index": "hunted_like_a_dog",
+        "name": "Hunted Like a Dog",
+        "source": "Vampire 20th [pg.492]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "hypersensitivity": {
+        "index": "hypersensitivity",
+        "name": "Hypersensitivity",
+        "source": "Tradition Book Cult of Ecstasy [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "icy": {
+        "index": "icy",
+        "name": "Icy",
+        "source": "Guide to the Technocracy [pg.169]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "icy_demeanor": {
+        "index": "icy_demeanor",
+        "name": "Icy Demeanor",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "ignorant": {
+        "index": "ignorant",
+        "name": "Ignorant",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "illegal_immigrant": {
+        "index": "illegal_immigrant",
+        "name": "Illegal Immigrant",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "illiterate": {
+        "index": "illiterate",
+        "name": "Illiterate",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "immaculate_aura": {
+        "index": "immaculate_aura",
+        "name": "Immaculate Aura",
+        "source": "Clanbook Malkavian [pg.64]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "immunity": {
+        "index": "immunity",
+        "name": "Immunity",
+        "source": "Guide to the Traditions [pg.229]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["2",
+                "4",
+                "6",
+                "8",
+                "10"]
+        }
+    },
+    "impatient": {
+        "index": "impatient",
+        "name": "Impatient",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "impractical_dresser": {
+        "index": "impractical_dresser",
+        "name": "Impractical Dresser",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "in_love": {
+        "index": "in_love",
+        "name": "In Love",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "inbred": {
+        "index": "inbred",
+        "name": "Inbred",
+        "source": "Clanbook Giovanni [pg.78]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-1"
+        }
+    },
+    "incoherent": {
+        "index": "incoherent",
+        "name": "Incoherent",
+        "source": "Clanbook Nosferatu [pg.74]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "incompetent": {
+        "index": "incompetent",
+        "name": "Incompetent",
+        "source": "Demon Player's Guide [pg.93]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "incomplete_understanding": {
+        "index": "incomplete_understanding",
+        "name": "Incomplete Understanding",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "independent_income": {
+        "index": "independent_income",
+        "name": "Independent Income",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "1",
+            "max": "5"
+        }
+    },
+    "indomitable_soul": {
+        "index": "indomitable_soul",
+        "name": "Indomitable Soul",
+        "source": "Sins of the Blood [pg.102]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "ineptitude": {
+        "index": "ineptitude",
+        "name": "Ineptitude",
+        "source": "Mage the Ascension [pg.292]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-4",
+            "max": "-1"
+        }
+    },
+    "infamous_autarkis": {
+        "index": "infamous_autarkis",
+        "name": "Infamous Autarkis",
+        "source": "Clanbook Nosferatu [pg.72]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "infamous_sire": {
+        "index": "infamous_sire",
+        "name": "Infamous Sire",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "infamy": {
+        "index": "infamy",
+        "name": "Infamy",
+        "source": "Demon Player's Guide [pg.84]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "infectious": {
+        "index": "infectious",
+        "name": "Infectious",
+        "source": "Clanbook Malkavian [pg.66]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "infectious_bite": {
+        "index": "infectious_bite",
+        "name": "Infectious Bite",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "infertile_vitae": {
+        "index": "infertile_vitae",
+        "name": "Infertile Vitae",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "inglorious_pedigree": {
+        "index": "inglorious_pedigree",
+        "name": "Inglorious Pedigree",
+        "source": "Blood Treachery [pg.86]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "inner_knight": {
+        "index": "inner_knight",
+        "name": "Inner Knight",
+        "source": "Guide to the Technocracy [pg.167]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "inoffensive_to_animals": {
+        "index": "inoffensive_to_animals",
+        "name": "Inoffensive to Animals",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "insensible_to_pain": {
+        "index": "insensible_to_pain",
+        "name": "Insensible to Pain",
+        "source": "Mage the Ascension [pg.288]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "insensitive": {
+        "index": "insensitive",
+        "name": "Insensitive",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "insomniac": {
+        "index": "insomniac",
+        "name": "Insomniac",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "internet_savvy": {
+        "index": "internet_savvy",
+        "name": "Internet Savvy",
+        "source": "Demon Player's Guide [pg.82]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "intolerant_neighbors": {
+        "index": "intolerant_neighbors",
+        "name": "Intolerant Neighbors",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "introspection": {
+        "index": "introspection",
+        "name": "Introspection",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "iron_will": {
+        "index": "iron_will",
+        "name": "Iron Will",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "judge-s_wisom": {
+        "index": "judge-s_wisom",
+        "name": "Judge's Wisom",
+        "source": "Tradition Book Akashic Brotherhood [pg.60]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "laid-back_friends": {
+        "index": "laid-back_friends",
+        "name": "Laid-Back Friends",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "lame": {
+        "index": "lame",
+        "name": "Lame",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "language": {
+        "index": "language",
+        "name": "Language",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "language_barrier": {
+        "index": "language_barrier",
+        "name": "Language Barrier",
+        "source": "Demon Player's Guide [pg.93]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-2",
+                "-3"]
+        }
+    },
+    "laughingstock": {
+        "index": "laughingstock",
+        "name": "Laughingstock",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "lazy": {
+        "index": "lazy",
+        "name": "Lazy",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "legendary_attribute": {
+        "index": "legendary_attribute",
+        "name": "Legendary Attribute",
+        "source": "Mage the Ascension [pg.296]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "license_to-": {
+        "index": "license_to-",
+        "name": "License to?",
+        "source": "Guide to the Technocracy [pg.165]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "range",
+            "min": "1",
+            "max": "5"
+        }
+    },
+    "light-sensitive": {
+        "index": "light-sensitive",
+        "name": "Light-Sensitive",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "light_sleeper": {
+        "index": "light_sleeper",
+        "name": "Light Sleeper",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "lightning_calculator": {
+        "index": "lightning_calculator",
+        "name": "Lightning Calculator",
+        "source": "Mage the Ascension [pg.291]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "lizard_limbs": {
+        "index": "lizard_limbs",
+        "name": "Lizard Limbs",
+        "source": "Clanbook Nosferatu [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "loathsome_regnant": {
+        "index": "loathsome_regnant",
+        "name": "Loathsome Regnant",
+        "source": "Vampire 20th [pg.492]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "long-lived": {
+        "index": "long-lived",
+        "name": "Long-Lived",
+        "source": "Tradition Book Verbena [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "long_fingers": {
+        "index": "long_fingers",
+        "name": "Long Fingers",
+        "source": "Clanbook Nosferatu [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "lord_of_the_flies": {
+        "index": "lord_of_the_flies",
+        "name": "Lord of the Flies",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "low_alcohol_tolerance": {
+        "index": "low_alcohol_tolerance",
+        "name": "Low Alcohol Tolerance",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "low_pain_tolerance": {
+        "index": "low_pain_tolerance",
+        "name": "Low Pain Tolerance",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "low_self-esteem": {
+        "index": "low_self-esteem",
+        "name": "Low Self-Esteem",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "lucky": {
+        "index": "lucky",
+        "name": "Lucky",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "lunacy": {
+        "index": "lunacy",
+        "name": "Lunacy",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "lustful": {
+        "index": "lustful",
+        "name": "Lustful",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "magic_addict": {
+        "index": "magic_addict",
+        "name": "Magic Addict",
+        "source": "Clanbook Assamite [pg.76]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-3",
+                "-5"]
+        }
+    },
+    "magic_resistance": {
+        "index": "magic_resistance",
+        "name": "Magic Resistance",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "manifest_avatar": {
+        "index": "manifest_avatar",
+        "name": "Manifest Avatar",
+        "source": "Mage the Ascension [pg.295]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "masquerade_breaker": {
+        "index": "masquerade_breaker",
+        "name": "Masquerade Breaker",
+        "source": "Vampire 20th [pg.491]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "massasa_contact": {
+        "index": "massasa_contact",
+        "name": "Massasa Contact",
+        "source": "Blood Treachery [pg.86]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "master_of_red_tape": {
+        "index": "master_of_red_tape",
+        "name": "Master of Red Tape",
+        "source": "Guide to the Technocracy [pg.167]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "mayfly_curse": {
+        "index": "mayfly_curse",
+        "name": "Mayfly Curse",
+        "source": "Mage the Ascension [pg.290]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-5",
+                "-10"]
+        }
+    },
+    "media_junkie": {
+        "index": "media_junkie",
+        "name": "Media Junkie",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "media_savvy": {
+        "index": "media_savvy",
+        "name": "Media Savvy",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "medicated": {
+        "index": "medicated",
+        "name": "Medicated",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-5"]
+        }
+    },
+    "medium": {
+        "index": "medium",
+        "name": "Medium",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "mired_in_scandal": {
+        "index": "mired_in_scandal",
+        "name": "Mired in Scandal",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "misinformed": {
+        "index": "misinformed",
+        "name": "Misinformed",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "mistaken_identity": {
+        "index": "mistaken_identity",
+        "name": "Mistaken Identity",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "mistreated_minority": {
+        "index": "mistreated_minority",
+        "name": "Mistreated Minority",
+        "source": "Sorcerer Revised [pg.54]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-1"
+        }
+    },
+    "mole": {
+        "index": "mole",
+        "name": "Mole",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "monstrous": {
+        "index": "monstrous",
+        "name": "Monstrous",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "monstrous_connections": {
+        "index": "monstrous_connections",
+        "name": "Monstrous Connections",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "motion_sickness": {
+        "index": "motion_sickness",
+        "name": "Motion Sickness",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "mourner-s_chant": {
+        "index": "mourner-s_chant",
+        "name": "Mourner's Chant",
+        "source": "Tradition Book Euthanatos [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "mr-_red_tape": {
+        "index": "mr-_red_tape",
+        "name": "Mr. Red Tape",
+        "source": "Guide to the Technocracy [pg.171]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "mute": {
+        "index": "mute",
+        "name": "Mute",
+        "source": "Vampire 20th [pg.483]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "narc": {
+        "index": "narc",
+        "name": "Narc",
+        "source": "Vampire 20th [pg.492]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "natural_channel": {
+        "index": "natural_channel",
+        "name": "Natural Channel",
+        "source": "Mage the Ascension [pg.295]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "natural_leader": {
+        "index": "natural_leader",
+        "name": "Natural Leader",
+        "source": "Vampire 20th [pg.487]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "natural_linguist": {
+        "index": "natural_linguist",
+        "name": "Natural Linguist",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "natural_politician": {
+        "index": "natural_politician",
+        "name": "Natural Politician",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "natural_runner": {
+        "index": "natural_runner",
+        "name": "Natural Runner",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "natural_shallowing": {
+        "index": "natural_shallowing",
+        "name": "Natural Shallowing",
+        "source": "Infinite Tapestry [pg.187]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "natural_shapeshifter": {
+        "index": "natural_shapeshifter",
+        "name": "Natural Shapeshifter",
+        "source": "Tradition Book Verbena [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "necrophile": {
+        "index": "necrophile",
+        "name": "Necrophile",
+        "source": "Clanbook Nosferatu [pg.73]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "needy_friends": {
+        "index": "needy_friends",
+        "name": "Needy Friends",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "nephilim": {
+        "index": "nephilim",
+        "name": "Nephilim",
+        "source": "Blood Treachery [pg.85]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "new_arrival": {
+        "index": "new_arrival",
+        "name": "New Arrival",
+        "source": "Vampire 20th [pg.490]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "new_kid": {
+        "index": "new_kid",
+        "name": "New Kid",
+        "source": "Vampire 20th [pg.490]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "nightmares": {
+        "index": "nightmares",
+        "name": "Nightmares",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "nine_lives": {
+        "index": "nine_lives",
+        "name": "Nine Lives",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "6"
+        }
+    },
+    "no_direction_sense": {
+        "index": "no_direction_sense",
+        "name": "No Direction Sense",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "no_internet_access": {
+        "index": "no_internet_access",
+        "name": "No Internet Access",
+        "source": "Demon Player's Guide [pg.89]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "no_phone": {
+        "index": "no_phone",
+        "name": "No Phone",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "no_sense_of_smell": {
+        "index": "no_sense_of_smell",
+        "name": "No Sense of Smell",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "no_sense_of_taste": {
+        "index": "no_sense_of_taste",
+        "name": "No Sense of Taste",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "non-confrontational": {
+        "index": "non-confrontational",
+        "name": "Non-Confrontational",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "non-swimmer": {
+        "index": "non-swimmer",
+        "name": "Non-swimmer",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "nosy_neighbors": {
+        "index": "nosy_neighbors",
+        "name": "Nosy Neighbors",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "obese": {
+        "index": "obese",
+        "name": "Obese",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "obvious_predator": {
+        "index": "obvious_predator",
+        "name": "Obvious Predator",
+        "source": "Clanbook Brujah [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "officially_dead": {
+        "index": "officially_dead",
+        "name": "Officially Dead",
+        "source": "Guide to the Technocracy [pg.166]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "old_flame": {
+        "index": "old_flame",
+        "name": "Old Flame",
+        "source": "Vampire 20th [pg.491]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "old_injury": {
+        "index": "old_injury",
+        "name": "Old Injury",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "old_pal": {
+        "index": "old_pal",
+        "name": "Old Pal",
+        "source": "Vampire 20th [pg.488]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "one_ear-eye": {
+        "index": "one_ear-eye",
+        "name": "One Ear\/Eye",
+        "source": "Mage the Ascension [pg.288]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "ontological_pacifist": {
+        "index": "ontological_pacifist",
+        "name": "Ontological Pacifist",
+        "source": "Tradition Book Akashic Brotherhood [pg.60]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-3",
+                "-5"]
+        }
+    },
+    "open_road": {
+        "index": "open_road",
+        "name": "Open Road",
+        "source": "Vampire 20th [pg.488]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "open_wound": {
+        "index": "open_wound",
+        "name": "Open Wound",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-2",
+                "-4"]
+        }
+    },
+    "optimistic": {
+        "index": "optimistic",
+        "name": "Optimistic",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "oracular_ability": {
+        "index": "oracular_ability",
+        "name": "Oracular Ability",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "overconfident": {
+        "index": "overconfident",
+        "name": "Overconfident",
+        "source": "Demon Player's Guide [pg.93]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "overextended": {
+        "index": "overextended",
+        "name": "Overextended",
+        "source": "Vampire 20th [pg.492]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "oversized_fangs": {
+        "index": "oversized_fangs",
+        "name": "Oversized Fangs",
+        "source": "Clanbook Nosferatu [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "pacifist": {
+        "index": "pacifist",
+        "name": "Pacifist",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "paid_mortgage": {
+        "index": "paid_mortgage",
+        "name": "Paid Mortgage",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "paragon": {
+        "index": "paragon",
+        "name": "Paragon",
+        "source": "Clanbook Ventrue [pg.77]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "6"
+        }
+    },
+    "paraplegic": {
+        "index": "paraplegic",
+        "name": "Paraplegic",
+        "source": "Mage the Ascension [pg.290]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-6"
+        }
+    },
+    "parasitic_infestation": {
+        "index": "parasitic_infestation",
+        "name": "Parasitic Infestation",
+        "source": "Clanbook Nosferatu [pg.73]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "parlor_trick": {
+        "index": "parlor_trick",
+        "name": "Parlor Trick",
+        "source": "Mage the Ascension [pg.294]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "patagia": {
+        "index": "patagia",
+        "name": "Patagia",
+        "source": "Clanbook Nosferatu [pg.72]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "path_inept": {
+        "index": "path_inept",
+        "name": "Path Inept",
+        "source": "Sorcerer Revised [pg.57]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "path_natural": {
+        "index": "path_natural",
+        "name": "Path Natural",
+        "source": "Sorcerer Revised [pg.56]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "pelagic_compulsion": {
+        "index": "pelagic_compulsion",
+        "name": "Pelagic Compulsion",
+        "source": "Clanbook Lasombra [pg.64]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "pelagic_harmony": {
+        "index": "pelagic_harmony",
+        "name": "Pelagic Harmony",
+        "source": "Clanbook Lasombra [pg.64]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "people_person": {
+        "index": "people_person",
+        "name": "People Person",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "perfect_liar": {
+        "index": "perfect_liar",
+        "name": "Perfect Liar",
+        "source": "Guide to the Technocracy [pg.166]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "permanent_fangs": {
+        "index": "permanent_fangs",
+        "name": "Permanent Fangs",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "permanent_wounds": {
+        "index": "permanent_wounds",
+        "name": "Permanent Wounds",
+        "source": "Vampire 20th [pg.482]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "personal_talisman": {
+        "index": "personal_talisman",
+        "name": "Personal Talisman",
+        "source": "Guide to the Traditions [pg.229]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["1",
+                "-1"]
+        }
+    },
+    "phobia": {
+        "index": "phobia",
+        "name": "Phobia",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "phylactery": {
+        "index": "phylactery",
+        "name": "Phylactery",
+        "source": "Mage the Ascension [pg.300]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-7"
+        }
+    },
+    "pillar_of_the_community": {
+        "index": "pillar_of_the_community",
+        "name": "Pillar of the Community",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "piscine": {
+        "index": "piscine",
+        "name": "Piscine",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "poker_face": {
+        "index": "poker_face",
+        "name": "Poker Face",
+        "source": "Guide to the Technocracy [pg.166]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "political_radical": {
+        "index": "political_radical",
+        "name": "Political Radical",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "poor_dental_health": {
+        "index": "poor_dental_health",
+        "name": "Poor Dental Health",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "poor_judge_of_character": {
+        "index": "poor_judge_of_character",
+        "name": "Poor Judge of Character",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "poor_night_vision": {
+        "index": "poor_night_vision",
+        "name": "Poor Night Vision",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "poor_personal_hygiene": {
+        "index": "poor_personal_hygiene",
+        "name": "Poor Personal Hygiene",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "poor_sense_of_time": {
+        "index": "poor_sense_of_time",
+        "name": "Poor Sense of Time",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "poor_taste": {
+        "index": "poor_taste",
+        "name": "Poor Taste",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "poseidon-s_call": {
+        "index": "poseidon-s_call",
+        "name": "Poseidon's Call",
+        "source": "Clanbook Lasombra [pg.64]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "precocious": {
+        "index": "precocious",
+        "name": "Precocious",
+        "source": "Vampire 20th [pg.485]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "prestigious_sire": {
+        "index": "prestigious_sire",
+        "name": "Prestigious Sire",
+        "source": "Vampire 20th [pg.488]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "prey_exclusion": {
+        "index": "prey_exclusion",
+        "name": "Prey Exclusion",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "primal_marks": {
+        "index": "primal_marks",
+        "name": "Primal Marks",
+        "source": "Mage the Ascension [pg.288]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "primary_breadwinner": {
+        "index": "primary_breadwinner",
+        "name": "Primary Breadwinner",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "primgogen": {
+        "index": "primgogen",
+        "name": "Primgogen",
+        "source": "Players Guide to the Camarilla [pg.77]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "primogen_friendship": {
+        "index": "primogen_friendship",
+        "name": "Primogen Friendship",
+        "source": "Vampire 20th [pg.489]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "probation": {
+        "index": "probation",
+        "name": "Probation",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "probationary_faction_member": {
+        "index": "probationary_faction_member",
+        "name": "Probationary Faction Member",
+        "source": "Demon Player's Guide [pg.85]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "probationary_member": {
+        "index": "probationary_member",
+        "name": "Probationary Member",
+        "source": "Mage the Ascension [pg.291]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "probationary_sect_member": {
+        "index": "probationary_sect_member",
+        "name": "Probationary Sect Member",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "projectile_vomiting": {
+        "index": "projectile_vomiting",
+        "name": "Projectile Vomiting",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "prone_to_quiet": {
+        "index": "prone_to_quiet",
+        "name": "Prone to Quiet",
+        "source": "Tradition Book Virtual Adepts [pg.62]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "protean_psyche": {
+        "index": "protean_psyche",
+        "name": "Protean Psyche",
+        "source": "Bitter Road [pg.118]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "protege": {
+        "index": "protege",
+        "name": "Protege",
+        "source": "Vampire 20th [pg.488]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "proxy_kissed": {
+        "index": "proxy_kissed",
+        "name": "Proxy Kissed",
+        "source": "Clanbook Giovanni [pg.77]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "psi_focus": {
+        "index": "psi_focus",
+        "name": "Psi Focus",
+        "source": "Sorcerer Revised [pg.57]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-3"
+        }
+    },
+    "psychic_feedback": {
+        "index": "psychic_feedback",
+        "name": "Psychic Feedback",
+        "source": "Sorcerer Revised [pg.56]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-2",
+                "-6"]
+        }
+    },
+    "psychic_ritual": {
+        "index": "psychic_ritual",
+        "name": "Psychic Ritual",
+        "source": "Sorcerer Revised [pg.54]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "punctual": {
+        "index": "punctual",
+        "name": "Punctual",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "putrescent": {
+        "index": "putrescent",
+        "name": "Putrescent",
+        "source": "Clanbook Nosferatu [pg.74]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "recruitment_target": {
+        "index": "recruitment_target",
+        "name": "Recruitment Target",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "red_list": {
+        "index": "red_list",
+        "name": "Red List",
+        "source": "Vampire 20th [pg.493]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-7"
+        }
+    },
+    "renunciate": {
+        "index": "renunciate",
+        "name": "Renunciate",
+        "source": "Blood Treachery [pg.86]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "rep": {
+        "index": "rep",
+        "name": "Rep",
+        "source": "Vampire 20th [pg.488]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "repelled_by_crosses": {
+        "index": "repelled_by_crosses",
+        "name": "Repelled by Crosses",
+        "source": "Vampire 20th [pg.495]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "reptile_buddy": {
+        "index": "reptile_buddy",
+        "name": "Reptile Buddy",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "repulsed_by_garlic": {
+        "index": "repulsed_by_garlic",
+        "name": "Repulsed by Garlic",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "resistant_pattern": {
+        "index": "resistant_pattern",
+        "name": "Resistant Pattern",
+        "source": "Guide to the Traditions [pg.229]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "resonant_passion": {
+        "index": "resonant_passion",
+        "name": "Resonant Passion",
+        "source": "Tradition Book Cult of Ecstasy [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "revoked_driver-s_license": {
+        "index": "revoked_driver-s_license",
+        "name": "Revoked Driver's License",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "rising_star": {
+        "index": "rising_star",
+        "name": "Rising Star",
+        "source": "Vampire 20th [pg.489]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "ritual_congregation": {
+        "index": "ritual_congregation",
+        "name": "Ritual Congregation",
+        "source": "Sorcerer Revised [pg.54]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "ritual_sleeper": {
+        "index": "ritual_sleeper",
+        "name": "Ritual Sleeper",
+        "source": "Sorcerer Revised [pg.57]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "rival_sires": {
+        "index": "rival_sires",
+        "name": "Rival Sires",
+        "source": "Vampire 20th [pg.491]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "robust_health": {
+        "index": "robust_health",
+        "name": "Robust Health",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "rogue": {
+        "index": "rogue",
+        "name": "Rogue",
+        "source": "Guide to the Technocracy [pg.171]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "rose-colored_mirrorshades": {
+        "index": "rose-colored_mirrorshades",
+        "name": "Rose-Colored Mirrorshades",
+        "source": "Guide to the Technocracy [pg.169]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "rotten_liar": {
+        "index": "rotten_liar",
+        "name": "Rotten Liar",
+        "source": "Guide to the Technocracy [pg.171]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "rugged_bad_looks": {
+        "index": "rugged_bad_looks",
+        "name": "Rugged Bad Looks",
+        "source": "Clanbook Nosferatu [pg.72]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "sabbat_survivor": {
+        "index": "sabbat_survivor",
+        "name": "Sabbat Survivor",
+        "source": "Vampire 20th [pg.488]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "sanctity": {
+        "index": "sanctity",
+        "name": "Sanctity",
+        "source": "Vampire 20th [pg.488]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "sanguine_incongruity": {
+        "index": "sanguine_incongruity",
+        "name": "Sanguine Incongruity",
+        "source": "Clanbook Giovanni [pg.78]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "scholar_of_enemies": {
+        "index": "scholar_of_enemies",
+        "name": "Scholar of Enemies",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "scholar_of_others": {
+        "index": "scholar_of_others",
+        "name": "Scholar of Others",
+        "source": "Vampire 20th [pg.489]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "sea_legs": {
+        "index": "sea_legs",
+        "name": "Sea Legs",
+        "source": "Demon Player's Guide [pg.77]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "seasoned_traveller": {
+        "index": "seasoned_traveller",
+        "name": "Seasoned Traveller",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["2",
+                "4"]
+        }
+    },
+    "sexy": {
+        "index": "sexy",
+        "name": "Sexy",
+        "source": "Demon Player's Guide [pg.78]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "shadow_walker": {
+        "index": "shadow_walker",
+        "name": "Shadow Walker",
+        "source": "Clanbook Giovanni [pg.78]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-6"
+        }
+    },
+    "shaky_hands": {
+        "index": "shaky_hands",
+        "name": "Shaky Hands",
+        "source": "Demon Player's Guide [pg.87]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "shapechanger_kin": {
+        "index": "shapechanger_kin",
+        "name": "Shapechanger Kin",
+        "source": "Mage the Ascension [pg.296]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "shattered_avatar": {
+        "index": "shattered_avatar",
+        "name": "Shattered Avatar",
+        "source": "Mage the Ascension [pg.297]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "short": {
+        "index": "short",
+        "name": "Short",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "short_fuse": {
+        "index": "short_fuse",
+        "name": "Short Fuse",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "short_temper": {
+        "index": "short_temper",
+        "name": "Short Temper",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "shy": {
+        "index": "shy",
+        "name": "Shy",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "sickly": {
+        "index": "sickly",
+        "name": "Sickly",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "sire-s_resentment": {
+        "index": "sire-s_resentment",
+        "name": "Sire's Resentment",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "sleep_unseen": {
+        "index": "sleep_unseen",
+        "name": "Sleep Unseen",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "sleeping_with_the_enemy": {
+        "index": "sleeping_with_the_enemy",
+        "name": "Sleeping With the Enemy",
+        "source": "Vampire 20th [pg.492]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "sleepwalker": {
+        "index": "sleepwalker",
+        "name": "Sleepwalker",
+        "source": "Mage the Ascension [pg.292]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-4",
+            "max": "-1"
+        }
+    },
+    "slimy": {
+        "index": "slimy",
+        "name": "Slimy",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "slow_healing": {
+        "index": "slow_healing",
+        "name": "Slow Healing",
+        "source": "Vampire 20th [pg.483]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "slow_learner": {
+        "index": "slow_learner",
+        "name": "Slow Learner",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "smell_of_the_grave": {
+        "index": "smell_of_the_grave",
+        "name": "Smell of the Grave",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "smooth": {
+        "index": "smooth",
+        "name": "Smooth",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "socially_aware": {
+        "index": "socially_aware",
+        "name": "Socially Aware",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "socially_oblivious": {
+        "index": "socially_oblivious",
+        "name": "Socially Oblivious",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "soft-hearted": {
+        "index": "soft-hearted",
+        "name": "Soft-Hearted",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "special_responsibility": {
+        "index": "special_responsibility",
+        "name": "Special Responsibility",
+        "source": "Players Guide to the Sabbat [pg.95]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "specialist_driver-s_license": {
+        "index": "specialist_driver-s_license",
+        "name": "Specialist Driver's License",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "speech_impediment": {
+        "index": "speech_impediment",
+        "name": "Speech Impediment",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "sphere_inept": {
+        "index": "sphere_inept",
+        "name": "Sphere Inept",
+        "source": "Mage the Ascension [pg.300]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "sphere_natural": {
+        "index": "sphere_natural",
+        "name": "Sphere Natural",
+        "source": "Mage the Ascension [pg.297]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "spirit_mentor": {
+        "index": "spirit_mentor",
+        "name": "Spirit Mentor",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "spoiled_beast": {
+        "index": "spoiled_beast",
+        "name": "Spoiled Beast",
+        "source": "Sins of the Blood [pg.103]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "stalked": {
+        "index": "stalked",
+        "name": "Stalked",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "stench": {
+        "index": "stench",
+        "name": "Stench",
+        "source": "Clanbook Nosferatu [pg.72]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "stereotype": {
+        "index": "stereotype",
+        "name": "Stereotype",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "sterile": {
+        "index": "sterile",
+        "name": "Sterile",
+        "source": "Sorcerer Revised [pg.53]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["1",
+                "-1"]
+        }
+    },
+    "stigmata": {
+        "index": "stigmata",
+        "name": "Stigmata",
+        "source": "Clanbook Malkavian [pg.66]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-2",
+                "-4"]
+        }
+    },
+    "storm-scarred": {
+        "index": "storm-scarred",
+        "name": "Storm-Scarred",
+        "source": "Infinite Tapestry [pg.187]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-3",
+            "max": "-1"
+        }
+    },
+    "stormwarden": {
+        "index": "stormwarden",
+        "name": "Stormwarden",
+        "source": "Mage the Ascension [pg.295]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["3",
+                "5"]
+        }
+    },
+    "strength_of_psyche": {
+        "index": "strength_of_psyche",
+        "name": "Strength of Psyche",
+        "source": "Sorcerer Revised [pg.54]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "stress_atavism": {
+        "index": "stress_atavism",
+        "name": "Stress Atavism",
+        "source": "Guide to the Technocracy [pg.170]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "struggling_awake": {
+        "index": "struggling_awake",
+        "name": "Struggling Awake",
+        "source": "Sorcerer Revised [pg.56]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "stubborn": {
+        "index": "stubborn",
+        "name": "Stubborn",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "style_sleeper": {
+        "index": "style_sleeper",
+        "name": "Style Sleeper",
+        "source": "Sorcerer Revised [pg.55]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "sunday_driver": {
+        "index": "sunday_driver",
+        "name": "Sunday Driver",
+        "source": "Demon Player's Guide [pg.94]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "superstitious": {
+        "index": "superstitious",
+        "name": "Superstitious",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "supportive_family": {
+        "index": "supportive_family",
+        "name": "Supportive Family",
+        "source": "Demon Player's Guide [pg.81]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "sympathetic_bond": {
+        "index": "sympathetic_bond",
+        "name": "Sympathetic Bond",
+        "source": "Clanbook Malkavian [pg.66]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "sympathizer": {
+        "index": "sympathizer",
+        "name": "Sympathizer",
+        "source": "Vampire 20th [pg.490]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "techgnosi": {
+        "index": "techgnosi",
+        "name": "Techgnosi",
+        "source": "Tradition Book Celestial Chorus [pg.62]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["2",
+                "6"]
+        }
+    },
+    "technobabbler": {
+        "index": "technobabbler",
+        "name": "Technobabbler",
+        "source": "Guide to the Technocracy [pg.168]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "technophobe": {
+        "index": "technophobe",
+        "name": "Technophobe",
+        "source": "Demon Player's Guide [pg.91]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "terrible_with_names": {
+        "index": "terrible_with_names",
+        "name": "Terrible with Names",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "territorial": {
+        "index": "territorial",
+        "name": "Territorial",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "thaumaturgically_inept": {
+        "index": "thaumaturgically_inept",
+        "name": "Thaumaturgically Inept",
+        "source": "Clanbook Tremere [pg.67]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "the_bard-s_tongue": {
+        "index": "the_bard-s_tongue",
+        "name": "The Bard's Tongue",
+        "source": "Mage the Ascension [pg.298]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "the_flow_of_ki": {
+        "index": "the_flow_of_ki",
+        "name": "The Flow of Ki",
+        "source": "Sorcerer Revised [pg.53]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "thin_blood": {
+        "index": "thin_blood",
+        "name": "Thin Blood",
+        "source": "Vampire 20th [pg.483]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "thirst_for_innocence": {
+        "index": "thirst_for_innocence",
+        "name": "Thirst for Innocence",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "tic-twitch": {
+        "index": "tic-twitch",
+        "name": "Tic\/Twitch",
+        "source": "Vampire 20th [pg.481]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "ties": {
+        "index": "ties",
+        "name": "Ties",
+        "source": "Guide to the Technocracy [pg.166]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "time_sense": {
+        "index": "time_sense",
+        "name": "Time Sense",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "totem": {
+        "index": "totem",
+        "name": "Totem",
+        "source": "Sorcerer Revised [pg.56]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "5"
+        }
+    },
+    "touch_of_chaos": {
+        "index": "touch_of_chaos",
+        "name": "Touch of Chaos",
+        "source": "Tradition Book Euthanatos [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "touch_of_frost": {
+        "index": "touch_of_frost",
+        "name": "Touch of Frost",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "touch_of_life": {
+        "index": "touch_of_life",
+        "name": "Touch of Life",
+        "source": "Tradition Book Verbena [pg.70]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "tough_hide": {
+        "index": "tough_hide",
+        "name": "Tough Hide",
+        "source": "Clanbook Nosferatu [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "tradition_herald": {
+        "index": "tradition_herald",
+        "name": "Tradition Herald",
+        "source": "Bitter Road [pg.117]",
+        "status": "restricted",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "traitor": {
+        "index": "traitor",
+        "name": "Traitor",
+        "source": "Clanbook Nosferatu [pg.74]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "trivia_champ": {
+        "index": "trivia_champ",
+        "name": "Trivia Champ",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "true_faith": {
+        "index": "true_faith",
+        "name": "True Faith",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "7"
+        }
+    },
+    "true_love": {
+        "index": "true_love",
+        "name": "True Love",
+        "source": "Vampire 20th [pg.493]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "true_reflection": {
+        "index": "true_reflection",
+        "name": "True Reflection",
+        "source": "Demon Player's Guide [pg.84]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "trusting": {
+        "index": "trusting",
+        "name": "Trusting",
+        "source": "Demon Player's Guide [pg.90]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "twin_link": {
+        "index": "twin_link",
+        "name": "Twin Link",
+        "source": "Sorcerer Revised [pg.55]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "multi",
+            "options": ["4",
+                "6"]
+        }
+    },
+    "twin_souls": {
+        "index": "twin_souls",
+        "name": "Twin Souls",
+        "source": "Mage the Ascension [pg.296]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "umbral_affinity": {
+        "index": "umbral_affinity",
+        "name": "Umbral Affinity",
+        "source": "Infinite Tapestry [pg.187]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "4"
+        }
+    },
+    "unaging": {
+        "index": "unaging",
+        "name": "Unaging",
+        "source": "Mage the Ascension [pg.295]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "unbondable": {
+        "index": "unbondable",
+        "name": "Unbondable",
+        "source": "Vampire 20th [pg.494]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "unbroken": {
+        "index": "unbroken",
+        "name": "Unbroken",
+        "source": "Clanbook Assamite [pg.77]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "uncontrollable": {
+        "index": "uncontrollable",
+        "name": "Uncontrollable",
+        "source": "Clanbook Brujah [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-5"
+        }
+    },
+    "uncontrollable_night_sight": {
+        "index": "uncontrollable_night_sight",
+        "name": "Uncontrollable Night Sight",
+        "source": "Clanbook Lasombra [pg.64]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "unconvinced": {
+        "index": "unconvinced",
+        "name": "Unconvinced",
+        "source": "Vampire 20th [pg.485]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    },
+    "unflappable": {
+        "index": "unflappable",
+        "name": "Unflappable",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "uninsured": {
+        "index": "uninsured",
+        "name": "Uninsured",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "unlucky": {
+        "index": "unlucky",
+        "name": "Unlucky",
+        "source": "Demon Player's Guide [pg.92]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "unobtrusive": {
+        "index": "unobtrusive",
+        "name": "Unobtrusive",
+        "source": "Guide to the Technocracy [pg.164]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "unrepentant_beast": {
+        "index": "unrepentant_beast",
+        "name": "Unrepentant Beast",
+        "source": "Sins of the Blood [pg.103]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "unsettling_effect": {
+        "index": "unsettling_effect",
+        "name": "Unsettling Effect",
+        "source": "Sorcerer Revised [pg.57]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "multi",
+            "options": ["-1",
+                "-3"]
+        }
+    },
+    "uppity": {
+        "index": "uppity",
+        "name": "Uppity",
+        "source": "Vampire 20th [pg.492]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "upright_citizen": {
+        "index": "upright_citizen",
+        "name": "Upright Citizen",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "useful_knowledge": {
+        "index": "useful_knowledge",
+        "name": "Useful Knowledge",
+        "source": "Vampire 20th [pg.484]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "vengeful": {
+        "index": "vengeful",
+        "name": "Vengeful",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "vibrant_neighborhood": {
+        "index": "vibrant_neighborhood",
+        "name": "Vibrant Neighborhood",
+        "source": "Demon Player's Guide [pg.80]",
+        "status": "restricted",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "vice_grip": {
+        "index": "vice_grip",
+        "name": "Vice Grip",
+        "source": "Tradition Book Cult of Ecstasy [pg.69]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "victim_of_the_masquerade": {
+        "index": "victim_of_the_masquerade",
+        "name": "Victim of the Masquerade",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "vulnerability": {
+        "index": "vulnerability",
+        "name": "Vulnerability",
+        "source": "Guide to the Traditions [pg.231]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-7",
+            "max": "-1"
+        }
+    },
+    "vulnerability_to_silver": {
+        "index": "vulnerability_to_silver",
+        "name": "Vulnerability to Silver",
+        "source": "Players Guide to the Sabbat [pg.95]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "wanted_by_law_enforcement": {
+        "index": "wanted_by_law_enforcement",
+        "name": "Wanted by Law Enforcement",
+        "source": "Demon Player's Guide [pg.95]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "war_wound": {
+        "index": "war_wound",
+        "name": "War Wound",
+        "source": "Demon Player's Guide [pg.84]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-2"
+        }
+    },
+    "way_with_words": {
+        "index": "way_with_words",
+        "name": "Way with Words",
+        "source": "Demon Player's Guide [pg.79]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "weak-willed": {
+        "index": "weak-willed",
+        "name": "Weak-Willed",
+        "source": "Vampire 20th [pg.486]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "wealthy_partner": {
+        "index": "wealthy_partner",
+        "name": "Wealthy Partner",
+        "source": "Demon Player's Guide [pg.83]",
+        "status": "active",
+        "universal": "true",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "weather_sense": {
+        "index": "weather_sense",
+        "name": "Weather Sense",
+        "source": "Clanbook Lasombra [pg.63]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "1"
+        }
+    },
+    "well_connected": {
+        "index": "well_connected",
+        "name": "Well Connected",
+        "source": "Tradition Book Virtual Adepts [pg.62]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "3"
+        }
+    },
+    "wild_talent_-flaw-": {
+        "index": "wild_talent_-flaw-",
+        "name": "Wild Talent [Flaw]",
+        "source": "Sorcerer Revised [pg.55]",
+        "status": "active",
+        "universal": "false",
+        "type": "merit",
+        "cost": {
+            "type": "single",
+            "level": "2"
+        }
+    },
+    "witch-hunted": {
+        "index": "witch-hunted",
+        "name": "Witch-Hunted",
+        "source": "Mage the Ascension [pg.291]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-4"
+        }
+    },
+    "witch-s_bane": {
+        "index": "witch-s_bane",
+        "name": "Witch's Bane",
+        "source": "Tradition Book Verbena [pg.71]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "range",
+            "min": "-5",
+            "max": "-3"
+        }
+    },
+    "withered_leg": {
+        "index": "withered_leg",
+        "name": "Withered Leg",
+        "source": "Clanbook Nosferatu [pg.73]",
+        "status": "active",
+        "universal": "false",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-3"
+        }
+    },
+    "youthful_appearance": {
+        "index": "youthful_appearance",
+        "name": "Youthful Appearance",
+        "source": "Demon Player's Guide [pg.86]",
+        "status": "active",
+        "universal": "true",
+        "type": "flaw",
+        "cost": {
+            "type": "single",
+            "level": "-1"
+        }
+    }
+}

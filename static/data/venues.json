@@ -1,0 +1,326 @@
+{
+    "worldofdarknessmortal": {
+        "name": "World of Darkness: Mortal",
+        "restricted": false
+    },
+    "vampirethemasquerade": {
+        "name": "Vampire: The Masquerade",
+        "restricted": false
+    },
+    "demonthefallen": {
+        "name": "Demon: The Fallen",
+        "restricted": false
+    },
+    "magetheascension": {
+        "name": "Mage: The Ascension",
+        "restricted": false
+    },
+    "vampire": {
+        "name": "Vampire",
+        "restricted": false
+    },
+    "ghoul": {
+        "name": "Ghoul",
+        "restricted": false
+    },
+    "enlightenedcitizen": {
+        "name": "Enlightened Citizen",
+        "restricted": false
+    },
+    "extraordinarycitizen": {
+        "name": "Extraordinary Citizen",
+        "restricted": false
+    },
+    "mage": {
+        "name": "Mage",
+        "restricted": false
+    },
+    "sorcererpsychic": {
+        "name": "Sorcerer/Psychic",
+        "restricted": false
+    },
+    "demon": {
+        "name": "Demon",
+        "restricted": false
+    },
+    "thrall": {
+        "name": "Thrall",
+        "restricted": false
+    },
+    "akashicbrotherhood": {
+        "name": "Akashic Brotherhood",
+        "restricted": false
+    },
+    "anarch": {
+        "name": "Anarch",
+        "restricted": false
+    },
+    "assamite": {
+        "name": "Assamite",
+        "restricted": false
+    },
+    "assamiteantitribu": {
+        "name": "Assamite Antitribu",
+        "restricted": false
+    },
+    "baali": {
+        "name": "Baali",
+        "restricted": true
+    },
+    "brujah": {
+        "name": "Brujah",
+        "restricted": false
+    },
+    "brujahantitribu": {
+        "name": "Brujah Antitribu",
+        "restricted": false
+    },
+    "caitiff": {
+        "name": "Caitiff",
+        "restricted": false
+    },
+    "camarilla": {
+        "name": "Camarilla",
+        "restricted": false
+    },
+    "celestialchorus": {
+        "name": "Celestial Chorus",
+        "restricted": false
+    },
+    "cryptic": {
+        "name": "Cryptic",
+        "restricted": false
+    },
+    "cultofecstasy": {
+        "name": "Cult of Ecstasy",
+        "restricted": false
+    },
+    "daughtersofcacophony": {
+        "name": "Daughters of Cacophony",
+        "restricted": true
+    },
+    "defiler": {
+        "name": "Defiler",
+        "restricted": false
+    },
+    "devil": {
+        "name": "Devil",
+        "restricted": false
+    },
+    "devourer": {
+        "name": "Devourer",
+        "restricted": false
+    },
+    "dreamspeakers": {
+        "name": "Dreamspeakers",
+        "restricted": false
+    },
+    "euthanatos": {
+        "name": "Euthanatos",
+        "restricted": false
+    },
+    "faustian": {
+        "name": "Faustian",
+        "restricted": false
+    },
+    "fiend": {
+        "name": "Fiend",
+        "restricted": false
+    },
+    "followersofset": {
+        "name": "Follower of Set",
+        "restricted": false
+    },
+    "gangrel": {
+        "name": "Gangrel",
+        "restricted": false
+    },
+    "gangrelantitribu": {
+        "name": "Gangrel Antitribu",
+        "restricted": false
+    },
+    "gargoyle": {
+        "name": "Gargoyle",
+        "restricted": true
+    },
+    "giovanni": {
+        "name": "Giovanni",
+        "restricted": false
+    },
+    "harbingersofskulls": {
+        "name": "Harbingers of Skulls",
+        "restricted": false
+    },
+    "hollowone": {
+        "name": "Hollow One",
+        "restricted": false
+    },
+    "independent": {
+        "name": "Independent",
+        "restricted": false
+    },
+    "iterationx": {
+        "name": "Iteration X",
+        "restricted": false
+    },
+    "lasombra": {
+        "name": "Lasombra",
+        "restricted": false
+    },
+    "lasombraantitribu": {
+        "name": "Lasombra Antitribu",
+        "restricted": false
+    },
+    "luciferan": {
+        "name": "Luciferan",
+        "restricted": false
+    },
+    "malefactor": {
+        "name": "Malefactor",
+        "restricted": false
+    },
+    "malkavian": {
+        "name": "Malkavian",
+        "restricted": false
+    },
+    "malkavianantitribu": {
+        "name": "Malkavian Antitribu",
+        "restricted": false
+    },
+    "nagaraja": {
+        "name": "Nagaraja",
+        "restricted": true
+    },
+    "newworldorder": {
+        "name": "New World Order",
+        "restricted": false
+    },
+    "ninetraditionsofmagic": {
+        "name": "Nine Traditions of Magic",
+        "restricted": true
+    },
+    "nosferatu": {
+        "name": "Nosferatu",
+        "restricted": false
+    },
+    "nosferatuantitribu": {
+        "name": "Nosferatu Antitribu",
+        "restricted": false
+    },
+    "orderofhermes": {
+        "name": "Order of Hermes",
+        "restricted": false
+    },
+    "orphan": {
+        "name": "Orphan",
+        "restricted": false
+    },
+    "pander": {
+        "name": "Pander",
+        "restricted": false
+    },
+    "progenitors": {
+        "name": "Progenitors",
+        "restricted": false
+    },
+    "ravager": {
+        "name": "Ravager",
+        "restricted": false
+    },
+    "ravnos": {
+        "name": "Ravnos",
+        "restricted": false
+    },
+    "ravnosantitribu": {
+        "name": "Ravnos Antitribu",
+        "restricted": false
+    },
+    "reconciler": {
+        "name": "Reconciler",
+        "restricted": false
+    },
+    "sabbat": {
+        "name": "Sabbat",
+        "restricted": false
+    },
+    "salubri": {
+        "name": "Salubri",
+        "restricted": true
+    },
+    "salubriantitribu": {
+        "name": "Salubri Antitribu",
+        "restricted": false
+    },
+    "samedi": {
+        "name": "Samedi",
+        "restricted": true
+    },
+    "scourge": {
+        "name": "Scourge",
+        "restricted": false
+    },
+    "serpentsofthelight": {
+        "name": "Serpents of the Light",
+        "restricted": false
+    },
+    "slayer": {
+        "name": "Slayer",
+        "restricted": false
+    },
+    "sonsofether": {
+        "name": "Sons of Ether",
+        "restricted": false
+    },
+    "syndicate": {
+        "name": "Syndicate",
+        "restricted": false
+    },
+    "technocracticunion": {
+        "name": "Technocratic Union",
+        "restricted": false
+    },
+    "toreador": {
+        "name": "Toreador",
+        "restricted": false
+    },
+    "toreadorantitribu": {
+        "name": "Toreador Antitribu",
+        "restricted": false
+    },
+    "tremere": {
+        "name": "Tremere",
+        "restricted": false
+    },
+    "truebrujah": {
+        "name": "True Brujah",
+        "restricted": true
+    },
+    "tzimisce": {
+        "name": "Tzimisce",
+        "restricted": false
+    },
+    "unaligned": {
+        "name": "Unaligned",
+        "restricted": false
+    },
+    "ventrue": {
+        "name": "Ventrue",
+        "restricted": false
+    },
+    "ventrueantitribu": {
+        "name": "Ventrue Antitribu",
+        "restricted": false
+    },
+    "verbena": {
+        "name": "Verbena",
+        "restricted": false
+    },
+    "virtualadepts": {
+        "name": "Virtual Adepts",
+        "restricted": false
+    },
+    "voidengineers": {
+        "name": "Void Engineers",
+        "restricted": false
+    }
+}

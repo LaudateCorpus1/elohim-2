@@ -1,0 +1,190 @@
+{
+    "worldofdarknessmortal": "worldofdarknessmortal",
+    "vampirethemasquerade": {
+        "ghoul": {
+            "independent": "independent",
+            "camarilla": "camarilla",
+            "sabbat": "sabbat"
+        },
+        "vampire": {
+            "independent": {
+                "assamite": "assamite",
+                "baali": "baali",
+                "brujah": "brujah",
+                "caitiff": "caitiff",
+                "daughtersofcacophony": "daughtersofcacophony",
+                "followersofset": "followersofset",
+                "gangrel": "gangrel",
+                "gargoyle": "gargoyle",
+                "giovanni": "giovanni",
+                "lasombraantitribu": "lasombraantitribu",
+                "malkavian": "malkavian",
+                "nagaraja": "nagaraja",
+                "nosferatu": "nosferatu",
+                "ravnos": "ravnos",
+                "salubri": "salubri",
+                "samedi": "samedi",
+                "toreador": "toreador",
+                "truebrujah": "truebrujah",
+                "ventrue": "ventrue"
+            },
+            "camarilla": {
+                "assamite": "assamite",
+                "brujah": "brujah",
+                "caitiff": "caitiff",
+                "daughtersofcacophony": "daughtersofcacophony",
+                "gangrel": "gangrel",
+                "gargoyle": "gargoyle",
+                "lasombraantitribu": "lasombraantitribu",
+                "malkavian": "malkavian",
+                "nosferatu": "nosferatu",
+                "ravnos": "ravnos",
+                "toreador": "toreador",
+                "tremere": "tremere",
+                "ventrue": "ventrue"
+            },
+            "anarch": {
+                "assamite": "assamite",
+                "brujah": "brujah",
+                "caitiff": "caitiff",
+                "daughtersofcacophony": "daughtersofcacophony",
+                "gangrel": "gangrel",
+                "gargoyle": "gargoyle",
+                "lasombraantitribu": "lasombraantitribu",
+                "malkavian": "malkavian",
+                "nosferatu": "nosferatu",
+                "ravnos": "ravnos",
+                "toreador": "toreador",
+                "tremere": "tremere",
+                "ventrue": "ventrue"
+            },
+            "sabbat": {
+                "assamiteantitribu": "assamiteantitribu",
+                "brujahantitribu": "brujahantitribu",
+                "gangrelantitribu": "gangrelantitribu",
+                "gargoyle": "gargoyle",
+                "giovanni": "giovanni",
+                "harbingersofskulls": "harbingersofskulls",
+                "lasombra": "lasombra",
+                "malkavianantitribu": "malkavianantitribu",
+                "nosferatuantitribu": "nosferatuantitribu",
+                "pander": "pander",
+                "ravnosantitribu": "ravnosantitribu",
+                "salubriantitribu": "salubriantitribu",
+                "serpentsofthelight": "serpentsofthelight",
+                "toreadorantitribu": "toreadorantitribu",
+                "tzimisce": "tzimisce",
+                "ventrueantitribu": "ventrueantitribu"
+            }
+        }
+    },
+    "demonthefallen": {
+        "thrall": "thrall",
+        "demon": {
+            "devil": {
+                "cryptic": "cryptic",
+                "faustian": "faustian",
+                "luciferan": "luciferan",
+                "ravener": "ravener",
+                "reconciler": "reconciler",
+                "unaligned": "unaligned"
+            },
+            "defiler": {
+                "cryptic": "cryptic",
+                "faustian": "faustian",
+                "luciferan": "luciferan",
+                "ravener": "ravener",
+                "reconciler": "reconciler",
+                "unaligned": "unaligned"
+            },
+            "devourer": {
+                "cryptic": "cryptic",
+                "faustian": "faustian",
+                "luciferan": "luciferan",
+                "ravener": "ravener",
+                "reconciler": "reconciler",
+                "unaligned": "unaligned"
+            },
+            "fiend": {
+                "cryptic": "cryptic",
+                "faustian": "faustian",
+                "luciferan": "luciferan",
+                "ravener": "ravener",
+                "reconciler": "reconciler",
+                "unaligned": "unaligned"
+            },
+            "malefactor": {
+                "cryptic": "cryptic",
+                "faustian": "faustian",
+                "luciferan": "luciferan",
+                "ravener": "ravener",
+                "reconciler": "reconciler",
+                "unaligned": "unaligned"
+            },
+            "scourge": {
+                "cryptic": "cryptic",
+                "faustian": "faustian",
+                "luciferan": "luciferan",
+                "ravener": "ravener",
+                "reconciler": "reconciler",
+                "unaligned": "unaligned"
+            },
+            "slayer": {
+                "cryptic": "cryptic",
+                "faustian": "faustian",
+                "luciferan": "luciferan",
+                "ravener": "ravener",
+                "reconciler": "reconciler",
+                "unaligned": "unaligned"
+            }
+        }
+    },
+    "magetheascension": {
+        "technocraticunion": {
+            "enlightenedcitizen": {
+                "iterationx": "iterationx",
+                "newworldorder": "newworldorder",
+                "progenitors": "progenitors",
+                "syndicate": "syndicate",
+                "voidengineers": "voidengineers"
+            },
+            "extraordinarycitizen": {
+                "iterationx": "iterationx",
+                "newworldorder": "newworldorder",
+                "progenitors": "progenitors",
+                "syndicate": "syndicate",
+                "voidengineers": "voidengineers"
+            }
+        },
+        "ninetraditionsofmagic": {
+            "mage": {
+                "akashicbrotherhood": "akashicbrotherhood",
+                "celestialchorus": "celestialchorus",
+                "cultofecstasy": "cultofecstasy",
+                "dreamspeakers": "dreamspeakers",
+                "euthanatos": "euthanatos",
+                "hollowone": "hollowone",
+                "orderofhermes": "orderofhermes",
+                "sonsofether": "sonsofether",
+                "verbena": "verbena",
+                "virtualadepts": "virtualadepts"
+            },
+            "sorcererpsychic": {
+                "akashicbrotherhood": "akashicbrotherhood",
+                "celestialchorus": "celestialchorus",
+                "cultofecstasy": "cultofecstasy",
+                "dreamspeakers": "dreamspeakers",
+                "euthanatos": "euthanatos",
+                "hollowone": "hollowone",
+                "orderofhermes": "orderofhermes",
+                "sonsofether": "sonsofether",
+                "verbena": "verbena",
+                "virtualadepts": "virtualadepts"
+            }
+        },
+        "orphan": {
+            "mage": "mage",
+            "sorcererpsychic": "sorcererpsychic"
+        }
+    }
+}
