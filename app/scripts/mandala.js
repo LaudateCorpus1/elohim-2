@@ -1,0 +1,1 @@
+var mandala = angular.module('mandala', []);
