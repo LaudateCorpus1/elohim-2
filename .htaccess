@@ -1,0 +1,17 @@
+Options +FollowSymLinks -Indexes
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/(?:api) [NC]
+RewriteRule ^(.*)$ api/index.php?page=$1 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !.*\.(css|js|html|png|jpg|jpeg|gif|txt)
+RewriteRule (.*) index.php [L]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php?page=$1 [QSA]
+
+

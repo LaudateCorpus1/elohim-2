@@ -1,1 +1,1 @@
-var mandala = angular.module('mandala', []);
+var app = angular.module('mandala', ['ngRoute']);
