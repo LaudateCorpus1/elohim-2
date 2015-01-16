@@ -1,8 +1,264 @@
 {
-    "allies": "Allies",
-    "contacts": "Contacts",
-    "resources": "Resources",
-    "influence": "Influence",
-    "fame": "Fame",
-    "status": "Status"
+
+
+    "allies": {
+        "index": "allies",
+        "name": "Allies",
+        "type": "exponential"
+    },
+    "alternate_identity": {
+        "index": "alternate_identity",
+        "name": "Alternate Identity",
+        "type": "linear"
+    },
+    "arcane": {
+        "index": "arcane",
+        "name": "Arcane",
+        "type": "linear"
+    },
+    "avatar": {
+        "index": "avatar",
+        "name": "Avatar",
+        "type": "exponential"
+    },
+    "backup": {
+        "index": "backup",
+        "name": "Backup",
+        "type": "exponential"
+    },
+    "blessing": {
+        "index": "blessing",
+        "name": "Blessing",
+        "type": "exponential"
+    },
+    "chantry": {
+        "index": "chantry",
+        "name": "Chantry",
+        "type": "exponential"
+    },
+    "chole": {
+        "index": "chole",
+        "name": "Cholé",
+        "type": "exponential"
+    },
+    "cloaking": {
+        "index": "cloaking",
+        "name": "Cloaking",
+        "type": "linear"
+    },
+    "companion": {
+        "index": "companion",
+        "name": "Companion",
+        "type": "exponential"
+    },
+    "construct": {
+        "index": "construct",
+        "name": "Construct",
+        "type": "exponential"
+    },
+    "contacts": {
+        "index": "contacts",
+        "name": "Contacts",
+        "type": "exponential"
+    },
+    "cult": {
+        "index": "cult",
+        "name": "Cult",
+        "type": "exponential"
+    },
+    "demesne": {
+        "index": "demesne",
+        "name": "Demesne",
+        "type": "exponential"
+    },
+    "destiny": {
+        "index": "destiny",
+        "name": "Destiny",
+        "type": "exponential"
+    },
+    "device": {
+        "index": "device",
+        "name": "Device",
+        "type": "linear"
+    },
+    "dream": {
+        "index": "dream",
+        "name": "Dream",
+        "type": "exponential"
+    },
+    "eminence": {
+        "index": "eminence",
+        "name": "Eminence",
+        "type": "exponential"
+    },
+    "enhancement": {
+        "index": "enhancement",
+        "name": "Enhancement",
+        "type": "exponential"
+    },
+    "exposure": {
+        "index": "exposure",
+        "name": "Exposure",
+        "type": "linear"
+    },
+    "fame": {
+        "index": "fame",
+        "name": "Fame",
+        "type": "exponential"
+    },
+    "familiar": {
+        "index": "familiar",
+        "name": "Familiar",
+        "type": "exponential"
+    },
+    "followers": {
+        "index": "followers",
+        "name": "Followers",
+        "type": "linear"
+    },
+    "generation": {
+        "index": "generation",
+        "name": "Generation",
+        "type": "exponential"
+    },
+    "genius": {
+        "index": "genius",
+        "name": "Genius",
+        "type": "exponential"
+    },
+    "guide": {
+        "index": "guide",
+        "name": "Guide",
+        "type": "exponential"
+    },
+    "herd": {
+        "index": "herd",
+        "name": "Herd",
+        "type": "exponential"
+    },
+    "hypercam": {
+        "index": "hypercam",
+        "name": "Hypercam",
+        "type": "exponential"
+    },
+    "influence": {
+        "index": "influence",
+        "name": "Influence",
+        "type": "exponential"
+    },
+    "laboratory": {
+        "index": "laboratory",
+        "name": "Laboratory",
+        "type": "exponential"
+    },
+    "legacy": {
+        "index": "legacy",
+        "name": "Legacy",
+        "type": "exponential"
+    },
+    "legend": {
+        "index": "legend",
+        "name": "Legend",
+        "type": "linear"
+    },
+    "library": {
+        "index": "library",
+        "name": "Library",
+        "type": "linear"
+    },
+    "mana": {
+        "index": "mana",
+        "name": "Mana",
+        "type": "exponential"
+    },
+    "mentor": {
+        "index": "mentor",
+        "name": "Mentor",
+        "type": "linear"
+    },
+    "node": {
+        "index": "node",
+        "name": "Node",
+        "type": "exponential"
+    },
+    "pacts": {
+        "index": "pacts",
+        "name": "Pacts",
+        "type": "exponential"
+    },
+    "paragon": {
+        "index": "paragon",
+        "name": "Paragon",
+        "type": "linear"
+    },
+    "pastlives": {
+        "index": "pastlives",
+        "name": "Past Lives",
+        "type": "linear"
+    },
+    "patron": {
+        "index": "patron",
+        "name": "Patron",
+        "type": "exponential"
+    },
+    "requisitions": {
+        "index": "requisitions",
+        "name": "Requisitions",
+        "type": "exponential"
+    },
+    "resources": {
+        "index": "resources",
+        "name": "Resources",
+        "type": "exponential"
+    },
+    "retainers": {
+        "index": "retainers",
+        "name": "Retainers",
+        "type": "exponential"
+    },
+    "rituals": {
+        "index": "rituals",
+        "name": "Rituals",
+        "type": "exponential"
+    },
+    "sanctum": {
+        "index": "sanctum",
+        "name": "Sanctum",
+        "type": "exponential"
+    },
+    "secret_weapons": {
+        "index": "secret_weapons",
+        "name": "Secret Weapons",
+        "type": "exponential"
+    },
+    "spies": {
+        "index": "spies",
+        "name": "Spies",
+        "type": "exponential"
+    },
+    "totem": {
+        "index": "totem",
+        "name": "Totem",
+        "type": "linear"
+    },
+    "wonder": {
+        "index": "wonder",
+        "name": "Wonder",
+        "type": "linear"
+    },
+    "camarilla_status": {
+        "index": "camarilla_status",
+        "name": "Camarilla Status",
+        "type": "exponential"
+    },
+    "clan_prestige": {
+        "index": "clan_prestige",
+        "name": "Clan Prestige",
+        "type": "exponential"
+    },
+    "sabbat_status": {
+        "index": "sabbat_status",
+        "name": "Sabbat Status",
+        "type": "exponential"
+    }
 }
