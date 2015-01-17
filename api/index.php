@@ -6,5 +6,20 @@ include '../init.inc.php';
 
 $db = new Database();
 
-echo "-----API-----<br />";
-print_r($_REQUEST);
+$params = explode('/', $_REQUEST['page']);
+
+if (count($params) == 0) {
+    exit;
+}
+
+switch ($params[0]) {
+    case 'user':
+        include 'user/index.php';
+        break;
+}
+
+
+function response($success, $message = false) {
+    echo json_encode(array('success'=>$success, 'message'=>$message));
+    exit;
+}
