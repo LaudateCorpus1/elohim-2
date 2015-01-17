@@ -10,8 +10,6 @@ class Database
 
     public function __construct($context = "default") {
         $this->contexts = json_decode(file_get_contents(CLASS_PATH."database/database.conf.json"), true);
-        print_r($this->contexts);
-
         $this->setContext($context);
     }
 
@@ -47,11 +45,10 @@ class Database
             else
                 $this->result->execute();
         } catch (PDOException $e) {
-            /*
             echo '<pre>'.$e->getMessage()."\n".$e;
             print_r($params);
             echo '</pre>';
-            */
+
         }
 
         return $this->result->rowCount();

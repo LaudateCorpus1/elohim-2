@@ -1,20 +1,8 @@
 {
-"default" : {
-"database": "dbtest",
-"user": "defUser",
-"pass": "defPass",
-"host": "localhost"
-},
-"main" : {
-"database": "dbtest",
-"user": "mainUser",
-"pass": "mainPass",
-"host": "localhost"
-},
-"cms" : {
-"database": "",
-"user": "",
-"pass": "",
-"host": ""
-}
+    "default": {
+        "database": "mandala",
+        "user": "root",
+        "pass": "",
+        "host": "localhost"
+    }
 }

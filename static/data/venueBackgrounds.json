@@ -1,0 +1,88 @@
+{
+    "worldofdarknessmortal": {
+        "alternate_identity": "alternate_identity",
+        "mentor": "mentor",
+        "retainers": "retainers"
+    },
+    "vampirethemasquerade": {
+        "alternate_identity": "alternate_identity",
+        "library": "library",
+        "mentor": "mentor",
+        "retainers": "retainers"
+    },
+    "magetheascension": {
+        "destiny": "destiny",
+        "legend": "legend",
+        "library": "library",
+        "mentor": "mentor"
+    },
+    "mage": {
+        "apprentice": "apprentice",
+        "arcane": "arcane",
+        "avatar": "avatar",
+        "blessing": "blessing",
+        "chantry": "chantry",
+        "cult": "cult",
+        "dream": "dream",
+        "demesne": "demesne",
+        "familiar": "familiar",
+        "node": "node",
+        "past_lives": "past_lives",
+        "sanctum": "sanctum",
+        "totem": "totem",
+        "ward": "ward",
+        "wonder": "wonder"
+    },
+    "extraordinary_citizen": {
+        "construct": "construct",
+        "chole": "chole",
+        "guide": "guide",
+        "mana": "mana"
+    },
+    "sorcerer": {
+        "chantry": "chantry",
+        "chole": "chole",
+        "guide": "guide",
+        "mana": "mana"
+    },
+    "technocratic_union": {
+        "backup": "backup",
+        "cloaking": "cloaking",
+        "companion": "companion",
+        "construct": "construct",
+        "device": "device",
+        "enhancement": "enhancement",
+        "hypercam": "hypercam",
+        "laboratory": "laboratory",
+        "requisitions": "requisitions",
+        "secret_weapons": "secret_weapons"
+    },
+    "vampire": {
+        "arcane": "arcane",
+        "generation": "generation",
+        "herd": "herd",
+        "clan_prestige": "clan_prestige"
+    },
+    "demon": {
+        "eminence": "eminence",
+        "followers": "followers",
+        "legacy": "legacy",
+        "pacts": "pacts",
+        "paragon": "paragon",
+        "patron": "patron"
+    },
+    "thrall": {
+        "exposure": "exposure"
+    },
+    "enlightened_citizen": {
+        "genius": "genius",
+        "node": "node"
+    },
+    "sabbat": {
+        "rituals": "rituals",
+        "sabbat_status": "sabbat_status"
+    },
+    "camarilla": {
+        "camarilla_status": "camarilla_status"
+    }
+}

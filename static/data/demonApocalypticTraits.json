@@ -1,0 +1,753 @@
+{
+
+
+    "affirm": {
+        "index": "affirm",
+        "name": "Affirm",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "alter_size": {
+        "index": "alter_size",
+        "name": "Alter Size",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "armor": {
+        "index": "armor",
+        "name": "Armor",
+        "level": "4",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "aura_of_dread": {
+        "index": "aura_of_dread",
+        "name": "Aura of Dread",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "aura_of_entropy": {
+        "index": "aura_of_entropy",
+        "name": "Aura of Entropy",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "aura_of_misfortune": {
+        "index": "aura_of_misfortune",
+        "name": "Aura of Misfortune",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "aura_of_vitality": {
+        "index": "aura_of_vitality",
+        "name": "Aura of Vitality",
+        "level": "4",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "beckon": {
+        "index": "beckon",
+        "name": "Beckon",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "cast_no_reflection": {
+        "index": "cast_no_reflection",
+        "name": "Cast No Reflection",
+        "level": "2",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "caustic_bile": {
+        "index": "caustic_bile",
+        "name": "Caustic Bile",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "chameleon_skin": {
+        "index": "chameleon_skin",
+        "name": "Chameleon Skin",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "chimerical_attack": {
+        "index": "chimerical_attack",
+        "name": "Chimerical Attack",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "chimerical_attack": {
+        "index": "chimerical_attack",
+        "name": "Chimerical Attack",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "chimerical_aura": {
+        "index": "chimerical_aura",
+        "name": "Chimerical Aura",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "claws_teeth": {
+        "index": "claws_teeth",
+        "name": "Claws/Teeth",
+        "level": "1",
+        "hightorment": "true",
+        "common": "true",
+    },
+    "cloak_of_shadows": {
+        "index": "cloak_of_shadows",
+        "name": "Cloak of Shadows",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "conjuration": {
+        "index": "conjuration",
+        "name": "Conjuration",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "corrosive_spit": {
+        "index": "corrosive_spit",
+        "name": "Corrosive Spit",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "damage_resistance": {
+        "index": "damage_resistance",
+        "name": "Damage Resistance",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "dead_reckoning": {
+        "index": "dead_reckoning",
+        "name": "Dead Reckoning",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "death_grip": {
+        "index": "death_grip",
+        "name": "Death-Grip",
+        "level": "4",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "distortion": {
+        "index": "distortion",
+        "name": "Distortion",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "dread_gaze": {
+        "index": "dread_gaze",
+        "name": "Dread Gaze",
+        "level": "4",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "dread_mein": {
+        "index": "dread_mein",
+        "name": "Dread Mein",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "enhanced_ability": {
+        "index": "enhanced_ability",
+        "name": "Enhanced Ability",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "enhanced_awareness": {
+        "index": "enhanced_awareness",
+        "name": "Enhanced Awareness",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "enhanced_dodge": {
+        "index": "enhanced_dodge",
+        "name": "Enhanced Dodge",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "enhanced_empathy": {
+        "index": "enhanced_empathy",
+        "name": "Enhanced Empathy",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "enhanced_intuition": {
+        "index": "enhanced_intuition",
+        "name": "Enhanced Intuition",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "enhanced_mental_acuity": {
+        "index": "enhanced_mental_acuity",
+        "name": "Enhanced Mental Acuity",
+        "level": "4",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "enhanced_senses": {
+        "index": "enhanced_senses",
+        "name": "Enhanced Senses",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "enhanced_social_traits": {
+        "index": "enhanced_social_traits",
+        "name": "Enhanced Social Traits",
+        "level": "4",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "enhanced_survival": {
+        "index": "enhanced_survival",
+        "name": "Enhanced Survival",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "extra_actions": {
+        "index": "extra_actions",
+        "name": "Extra Actions",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "extra_health_levels": {
+        "index": "extra_health_levels",
+        "name": "Extra Health Levels",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "extra_limbs": {
+        "index": "extra_limbs",
+        "name": "Extra Limbs",
+        "level": "3",
+        "hightorment": "true",
+        "common": "true",
+    },
+    "eyes_of_fate": {
+        "index": "eyes_of_fate",
+        "name": "Eyes of Fate",
+        "level": "4",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "fiery_blood": {
+        "index": "fiery_blood",
+        "name": "Fiery Blood",
+        "level": "4",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "flashing_fingers": {
+        "index": "flashing_fingers",
+        "name": "Flashing Fingers",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "frenzy": {
+        "index": "frenzy",
+        "name": "Frenzy",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "gaping_maw": {
+        "index": "gaping_maw",
+        "name": "Gaping Maw",
+        "level": "2",
+        "hightorment": "true",
+        "common": "true",
+    },
+    "ghost_sight": {
+        "index": "ghost_sight",
+        "name": "Ghost Sight",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "horns": {
+        "index": "horns",
+        "name": "Horns",
+        "level": "1",
+        "hightorment": "true",
+        "common": "true",
+    },
+    "howl_of_the_damned": {
+        "index": "howl_of_the_damned",
+        "name": "Howl of the Damned",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "hypnotic_visions": {
+        "index": "hypnotic_visions",
+        "name": "Hypnotic Visions",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "ichor": {
+        "index": "ichor",
+        "name": "Ichor",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "immune_to_bashing_damage": {
+        "index": "immune_to_bashing_damage",
+        "name": "Immune to Bashing Damage",
+        "level": "4",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "immune_to_electricity": {
+        "index": "immune_to_electricity",
+        "name": "Immune to Electricity",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "immune_to_falling_damage": {
+        "index": "immune_to_falling_damage",
+        "name": "Immune to Falling Damage",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "immune_to_fire": {
+        "index": "immune_to_fire",
+        "name": "Immune to Fire",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "immune_to_poisons": {
+        "index": "immune_to_poisons",
+        "name": "Immune to Poisons",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "improved_attribute": {
+        "index": "improved_attribute",
+        "name": "Improved Attribute",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "improved_dexterity": {
+        "index": "improved_dexterity",
+        "name": "Improved Dexterity",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "improved_initiative": {
+        "index": "improved_initiative",
+        "name": "Improved Initiative",
+        "level": "1",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "improved_physical_capabilities": {
+        "index": "improved_physical_capabilities",
+        "name": "Improved Physical Capabilities",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "increased_awareness": {
+        "index": "increased_awareness",
+        "name": "Increased Awareness",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "increased_size": {
+        "index": "increased_size",
+        "name": "Increased Size",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "inhuman_allure": {
+        "index": "inhuman_allure",
+        "name": "Inhuman Allure",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "ink_cloud": {
+        "index": "ink_cloud",
+        "name": "Ink Cloud",
+        "level": "0",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "iron_skin": {
+        "index": "iron_skin",
+        "name": "Iron Skin",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "irresistible_force": {
+        "index": "irresistible_force",
+        "name": "Irresistible Force",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "lashing_tail": {
+        "index": "lashing_tail",
+        "name": "Lashing Tail",
+        "level": "1",
+        "hightorment": "true",
+        "common": "true",
+    },
+    "lordly_mein": {
+        "index": "lordly_mein",
+        "name": "Lordly Mein",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "lyrical_voice": {
+        "index": "lyrical_voice",
+        "name": "Lyrical Voice",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "magnetic_field": {
+        "index": "magnetic_field",
+        "name": "Magnetic Field",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "master_artisan": {
+        "index": "master_artisan",
+        "name": "Master Artisan",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "miasma": {
+        "index": "miasma",
+        "name": "Miasma",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "mirage": {
+        "index": "mirage",
+        "name": "Mirage",
+        "level": "1",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "mist": {
+        "index": "mist",
+        "name": "Mist",
+        "level": "4",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "multiple_eyes": {
+        "index": "multiple_eyes",
+        "name": "Multiple Eyes",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "natural_weaponry": {
+        "index": "natural_weaponry",
+        "name": "Natural Weaponry",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "night_sight": {
+        "index": "night_sight",
+        "name": "Night Sight",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "nimble_hunter": {
+        "index": "nimble_hunter",
+        "name": "Nimble Hunter",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "pass_without_trace": {
+        "index": "pass_without_trace",
+        "name": "Pass Without Trace",
+        "level": "2",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "perfect_balance": {
+        "index": "perfect_balance",
+        "name": "Perfect Balance",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "primal_mind": {
+        "index": "primal_mind",
+        "name": "Primal Mind",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "quills": {
+        "index": "quills",
+        "name": "Quills",
+        "level": "1",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "radiant_aura": {
+        "index": "radiant_aura",
+        "name": "Radiant Aura",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "reaper_s_breath": {
+        "index": "reaper_s_breath",
+        "name": "Reaper's Breath",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "regeneration": {
+        "index": "regeneration",
+        "name": "Regeneration",
+        "level": "4",
+        "hightorment": "false",
+        "common": "true",
+    },
+    "relentless": {
+        "index": "relentless",
+        "name": "Relentless",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "rend_the_soul": {
+        "index": "rend_the_soul",
+        "name": "Rend the Soul",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "scales": {
+        "index": "scales",
+        "name": "Scales",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "sea_s_beauty": {
+        "index": "sea_s_beauty",
+        "name": "Sea's Beauty",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "sense_the_hidden": {
+        "index": "sense_the_hidden",
+        "name": "Sense the Hidden",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "shark_hide": {
+        "index": "shark_hide",
+        "name": "Shark Hide",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "shocking_touch": {
+        "index": "shocking_touch",
+        "name": "Shocking Touch",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "shroud_of_flames": {
+        "index": "shroud_of_flames",
+        "name": "Shroud of Flames",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "sibilant_whispers": {
+        "index": "sibilant_whispers",
+        "name": "Sibilant Whispers",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "spark_of_faith": {
+        "index": "spark_of_faith",
+        "name": "Spark of Faith",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "spikes": {
+        "index": "spikes",
+        "name": "Spikes",
+        "level": "1",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "spines": {
+        "index": "spines",
+        "name": "Spines",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "sun_s_bounty": {
+        "index": "sun_s_bounty",
+        "name": "Sun's Bounty",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "supernatural_vision": {
+        "index": "supernatural_vision",
+        "name": "Supernatural Vision",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "the_host": {
+        "index": "the_host",
+        "name": "The Host",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "thick_hide": {
+        "index": "thick_hide",
+        "name": "Thick Hide",
+        "level": "2",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "thorns": {
+        "index": "thorns",
+        "name": "Thorns",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "thunderous_voice": {
+        "index": "thunderous_voice",
+        "name": "Thunderous Voice",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "touch_of_death": {
+        "index": "touch_of_death",
+        "name": "Touch of Death",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "toxins": {
+        "index": "toxins",
+        "name": "Toxins",
+        "level": "3",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "tremor_sense": {
+        "index": "tremor_sense",
+        "name": "Tremor Sense",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "unearthly_glamour": {
+        "index": "unearthly_glamour",
+        "name": "Unearthly Glamour",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "venom": {
+        "index": "venom",
+        "name": "Venom",
+        "level": "3",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "viscous_flesh": {
+        "index": "viscous_flesh",
+        "name": "Viscous Flesh",
+        "level": "2",
+        "hightorment": "true",
+        "common": "false"
+    },
+    "voice_of_the_damned": {
+        "index": "voice_of_the_damned",
+        "name": "Voice of the Damned",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "weather_sense": {
+        "index": "weather_sense",
+        "name": "Weather Sense",
+        "level": "1",
+        "hightorment": "false",
+        "common": "false"
+    },
+    "wings": {
+        "index": "wings",
+        "name": "Wings",
+        "level": "3",
+        "hightorment": "false",
+        "common": "true"
+    }
+}
