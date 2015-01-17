@@ -1,0 +1,8 @@
+{
+    "EMAIL_FROM": "address@address.com",
+    "EMAIL_USERNAME": "username@address.com",
+    "EMAIL_PASSWORD": "password",
+    "EMAIL_SERVER": "server@server",
+    "EMAIL_PORT": "25",
+    "EMAIL_AUTH": true
+}
