@@ -1,4 +1,4 @@
-<?php
+API INDEX<br /><?php
 
 $__DIR = '../';
 
@@ -12,12 +12,10 @@ if (count($params) == 0) {
     exit;
 }
 
-switch ($params[0]) {
-    case 'user':
-        include 'user/index.php';
-        break;
-}
+if (!file_exists($params[0].'/index.php'))
+    response(false, 'NO_REQUEST');
 
+include $params[0].'/index.php';
 
 function response($success, $message = false) {
     echo json_encode(array('success'=>$success, 'message'=>$message));

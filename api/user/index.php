@@ -1,15 +1,12 @@
 <?php
 
-if (!isset($params[1])) exit;
+if (!isset($params[1]))
+    response(false, 'NO_REQUEST');
 
-switch ($params[1]) {
-    case 'register':
-        include 'registerUser.php';
-        break;
-}
+if (!file_exists('user/'.$params[1]."User.php"))
+    response(false, 'INVALID_REQUEST');
 
-
-
+include 'user/'.$params[1].'User.php';
 
 
 function validateUsernameCharacters($username) {
