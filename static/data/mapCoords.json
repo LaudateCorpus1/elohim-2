@@ -1,0 +1,369 @@
+{"abrams_posting": {
+    "sliceID": "1",
+    "sliceName": "Abrams Posting",
+    "sliceImage": "abramsposting.png",
+    "sliceX": "624",
+    "sliceY": "23",
+    "sliceOrder": "1",
+    "sliceDefaultColor": "yellow"
+},
+    "acadia_crossing": {
+        "sliceID": "2",
+        "sliceName": "Acadia Crossing",
+        "sliceImage": "acadiacrossing.png",
+        "sliceX": "205",
+        "sliceY": "602",
+        "sliceOrder": "2",
+        "sliceDefaultColor": "yellow"
+    },
+    "addison": {
+        "sliceID": "3",
+        "sliceName": "Addison",
+        "sliceImage": "addison.png",
+        "sliceX": "353",
+        "sliceY": "226",
+        "sliceOrder": "3",
+        "sliceDefaultColor": "yellow"
+    },
+    "athens": {
+        "sliceID": "4",
+        "sliceName": "Athens",
+        "sliceImage": "athens.png",
+        "sliceX": "88",
+        "sliceY": "717",
+        "sliceOrder": "4",
+        "sliceDefaultColor": "yellow"
+    },
+    "cooks_port": {
+        "sliceID": "5",
+        "sliceName": "Cooks Port",
+        "sliceImage": "cooksport.png",
+        "sliceX": "567",
+        "sliceY": "653",
+        "sliceOrder": "5",
+        "sliceDefaultColor": "red"
+    },
+    "coventry": {
+        "sliceID": "6",
+        "sliceName": "Coventry",
+        "sliceImage": "coventry.png",
+        "sliceX": "210",
+        "sliceY": "457",
+        "sliceOrder": "6",
+        "sliceDefaultColor": "blue"
+    },
+    "coventry_international_airport": {
+        "sliceID": "7",
+        "sliceName": "Coventry International Airport",
+        "sliceImage": "coventryinternationalairport.png",
+        "sliceX": "453",
+        "sliceY": "630",
+        "sliceOrder": "7",
+        "sliceDefaultColor": "red"
+    },
+    "donlands": {
+        "sliceID": "8",
+        "sliceName": "Donlands",
+        "sliceImage": "donlands.png",
+        "sliceX": "40",
+        "sliceY": "235",
+        "sliceOrder": "8",
+        "sliceDefaultColor": "pink"
+    },
+    "dutch_stretch": {
+        "sliceID": "9",
+        "sliceName": "Dutch Stretch",
+        "sliceImage": "dutchstretch.png",
+        "sliceX": "498",
+        "sliceY": "275",
+        "sliceOrder": "9",
+        "sliceDefaultColor": "yellow"
+    },
+    "eagle_flats": {
+        "sliceID": "10",
+        "sliceName": "Eagle Flats",
+        "sliceImage": "eagleflats.png",
+        "sliceX": "327",
+        "sliceY": "60",
+        "sliceOrder": "10",
+        "sliceDefaultColor": "yellow"
+    },
+    "east_junction": {
+        "sliceID": "11",
+        "sliceName": "East Junction",
+        "sliceImage": "eastjunction.png",
+        "sliceX": "440",
+        "sliceY": "169",
+        "sliceOrder": "11",
+        "sliceDefaultColor": "yellow"
+    },
+    "ellesmere": {
+        "sliceID": "12",
+        "sliceName": "Ellesmere",
+        "sliceImage": "ellesmere.png",
+        "sliceX": "176",
+        "sliceY": "681",
+        "sliceOrder": "12",
+        "sliceDefaultColor": "yellow"
+    },
+    "elsworth": {
+        "sliceID": "13",
+        "sliceName": "Elsworth",
+        "sliceImage": "elsworth.png",
+        "sliceX": "38",
+        "sliceY": "375",
+        "sliceOrder": "13",
+        "sliceDefaultColor": "pink"
+    },
+    "franklin": {
+        "sliceID": "14",
+        "sliceName": "Franklin",
+        "sliceImage": "franklin.png",
+        "sliceX": "615",
+        "sliceY": "179",
+        "sliceOrder": "14",
+        "sliceDefaultColor": "brown"
+    },
+    "graham_lake": {
+        "sliceID": "15",
+        "sliceName": "Graham Lake",
+        "sliceImage": "grahamlake.png",
+        "sliceX": "204",
+        "sliceY": "53",
+        "sliceOrder": "15",
+        "sliceDefaultColor": "pink"
+    },
+    "greyfield": {
+        "sliceID": "16",
+        "sliceName": "Greyfield",
+        "sliceImage": "greyfield.png",
+        "sliceX": "91",
+        "sliceY": "655",
+        "sliceOrder": "16",
+        "sliceDefaultColor": "yellow"
+    },
+    "halley": {
+        "sliceID": "17",
+        "sliceName": "Halley",
+        "sliceImage": "halley.png",
+        "sliceX": "299",
+        "sliceY": "791",
+        "sliceOrder": "17",
+        "sliceDefaultColor": "yellow"
+    },
+    "hancock": {
+        "sliceID": "18",
+        "sliceName": "Hancock",
+        "sliceImage": "hancock.png",
+        "sliceX": "542",
+        "sliceY": "520",
+        "sliceOrder": "18",
+        "sliceDefaultColor": "yellow"
+    },
+    "hancock_county_airfield": {
+        "sliceID": "19",
+        "sliceName": "Hancock County Airfield",
+        "sliceImage": "hancockcountyairfield.png",
+        "sliceX": "247",
+        "sliceY": "824",
+        "sliceOrder": "19",
+        "sliceDefaultColor": "red"
+    },
+    "high_park": {
+        "sliceID": "20",
+        "sliceName": "High Park",
+        "sliceImage": "highpark.png",
+        "sliceX": "381",
+        "sliceY": "551",
+        "sliceOrder": "20",
+        "sliceDefaultColor": "cyan"
+    },
+    "hillcrest": {
+        "sliceID": "21",
+        "sliceName": "Hillcrest",
+        "sliceImage": "hillcrest.png",
+        "sliceX": "507",
+        "sliceY": "167",
+        "sliceOrder": "21",
+        "sliceDefaultColor": "yellow"
+    },
+    "hunting": {
+        "sliceID": "22",
+        "sliceName": "Hunting",
+        "sliceImage": "hunting.png",
+        "sliceX": "262",
+        "sliceY": "233",
+        "sliceOrder": "22",
+        "sliceDefaultColor": "yellow"
+    },
+    "jacobs_hearth": {
+        "sliceID": "23",
+        "sliceName": "Jacobs Hearth",
+        "sliceImage": "jacobshearth.png",
+        "sliceX": "297",
+        "sliceY": "171",
+        "sliceOrder": "23",
+        "sliceDefaultColor": "yellow"
+    },
+    "kennedy": {
+        "sliceID": "24",
+        "sliceName": "Kennedy",
+        "sliceImage": "kennedy.png",
+        "sliceX": "421",
+        "sliceY": "753",
+        "sliceOrder": "24",
+        "sliceDefaultColor": "yellow"
+    },
+    "lamoine": {
+        "sliceID": "25",
+        "sliceName": "Lamoine",
+        "sliceImage": "lamoine.png",
+        "sliceX": "311",
+        "sliceY": "642",
+        "sliceOrder": "25",
+        "sliceDefaultColor": "yellow"
+    },
+    "landsdowne": {
+        "sliceID": "26",
+        "sliceName": "Landsdowne",
+        "sliceImage": "landsdowne.png",
+        "sliceX": "67",
+        "sliceY": "912",
+        "sliceOrder": "26",
+        "sliceDefaultColor": "yellow"
+    },
+    "merdas_cross": {
+        "sliceID": "27",
+        "sliceName": "Merdas Cross",
+        "sliceImage": "merdascross.png",
+        "sliceX": "406",
+        "sliceY": "489",
+        "sliceOrder": "27",
+        "sliceDefaultColor": "yellow"
+    },
+    "midland": {
+        "sliceID": "28",
+        "sliceName": "Midland",
+        "sliceImage": "midland.png",
+        "sliceX": "305",
+        "sliceY": "331",
+        "sliceOrder": "28",
+        "sliceDefaultColor": "blue"
+    },
+    "mount_amberly": {
+        "sliceID": "29",
+        "sliceName": "Mount Amberly",
+        "sliceImage": "mountamberley.png",
+        "sliceX": "73",
+        "sliceY": "794",
+        "sliceOrder": "29",
+        "sliceDefaultColor": "yellow"
+    },
+    "pearson": {
+        "sliceID": "30",
+        "sliceName": "Pearson",
+        "sliceImage": "pearson.png",
+        "sliceX": "608",
+        "sliceY": "72",
+        "sliceOrder": "30",
+        "sliceDefaultColor": "brown"
+    },
+    "priory": {
+        "sliceID": "31",
+        "sliceName": "Priory",
+        "sliceImage": "priory.png",
+        "sliceX": "200",
+        "sliceY": "248",
+        "sliceOrder": "31",
+        "sliceDefaultColor": "pink"
+    },
+    "randall": {
+        "sliceID": "32",
+        "sliceName": "Randall",
+        "sliceImage": "randall.png",
+        "sliceX": "423",
+        "sliceY": "74",
+        "sliceOrder": "32",
+        "sliceDefaultColor": "yellow"
+    },
+    "rosedale": {
+        "sliceID": "33",
+        "sliceName": "Rosedale",
+        "sliceImage": "rosedale.png",
+        "sliceX": "435",
+        "sliceY": "242",
+        "sliceOrder": "33",
+        "sliceDefaultColor": "yellow"
+    },
+    "shipton": {
+        "sliceID": "34",
+        "sliceName": "Shipton",
+        "sliceImage": "shipton.png",
+        "sliceX": "144",
+        "sliceY": "353",
+        "sliceOrder": "34",
+        "sliceDefaultColor": "yellow"
+    },
+    "st_peters": {
+        "sliceID": "35",
+        "sliceName": "St. Peters",
+        "sliceImage": "stpeters.png",
+        "sliceX": "124",
+        "sliceY": "585",
+        "sliceOrder": "35",
+        "sliceDefaultColor": "emerald"
+    },
+    "tweed": {
+        "sliceID": "36",
+        "sliceName": "Tweed",
+        "sliceImage": "tweed.png",
+        "sliceX": "533",
+        "sliceY": "95",
+        "sliceOrder": "36",
+        "sliceDefaultColor": "brown"
+    },
+    "victor": {
+        "sliceID": "37",
+        "sliceName": "Victor",
+        "sliceImage": "victor.png",
+        "sliceX": "710",
+        "sliceY": "569",
+        "sliceOrder": "37",
+        "sliceDefaultColor": "midnight"
+    },
+    "weatherly": {
+        "sliceID": "38",
+        "sliceName": "Weatherly",
+        "sliceImage": "weatherly.png",
+        "sliceX": "612",
+        "sliceY": "576",
+        "sliceOrder": "38",
+        "sliceDefaultColor": "yellow"
+    },
+    "westmont": {
+        "sliceID": "39",
+        "sliceName": "Westmont",
+        "sliceImage": "westmont.png",
+        "sliceX": "63",
+        "sliceY": "580",
+        "sliceOrder": "39",
+        "sliceDefaultColor": "midnight"
+    },
+    "wittsford": {
+        "sliceID": "40",
+        "sliceName": "Wittsford",
+        "sliceImage": "wittsford.png",
+        "sliceX": "77",
+        "sliceY": "477",
+        "sliceOrder": "40",
+        "sliceDefaultColor": "yellow"
+    },
+    "yorkdale": {
+        "sliceID": "41",
+        "sliceName": "Yorkdale",
+        "sliceImage": "yorkdale.png",
+        "sliceX": "294",
+        "sliceY": "726",
+        "sliceOrder": "41",
+        "sliceDefaultColor": "yellow"
+    }}

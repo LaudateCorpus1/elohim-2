@@ -1,1 +1,0 @@
-app.controller('UserController', function() {});

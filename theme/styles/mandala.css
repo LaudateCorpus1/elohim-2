@@ -1,0 +1,185 @@
+* {
+    font-family: "Raleway", Verdana, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 10pt;
+}
+
+input {
+    border: 1px solid #666;
+    padding: 2px;
+    border-radius: 3px;
+    background: white;
+}
+
+.module {
+    display: block;
+    margin-bottom: 6px;
+    padding: 48px;
+    background: #ddd;
+}
+
+a.form-button, button.form-button, input.form-button {
+    border-radius: 3px;
+    border: 1px solid #999;
+    background: white;
+    color: black;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background: #666;
+    color: white;
+    border-color: #333;
+
+}
+
+div.helptext {
+    margin-top: 2px;
+    padding-top: 0;
+}
+
+div.helptext p {
+    margin-top: 0;
+    padding: 0 48px 0 6px;
+    color: rgba(0,0,0,0.8);
+}
+
+.ui-dialog .lightbox-container {
+    padding: 0 18px 18px;
+}
+
+.ui-dialog-titlebar {
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.ui-dialog-titlebar .ui-dialog-title {
+    padding: 12px 18px;
+    width: 95%;
+    font-size: 18pt;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.ui-dialog h1 {
+    margin: 0 0 18px;
+}
+
+#lightbox-userRegister {
+    background: #eee;
+    height: 400px;
+    width: 600px;
+}
+
+.ui-dialog {
+    background: #eee;
+    padding: 0;
+    margin: 24px auto 0;
+    box-shadow: 0 0 6px black;
+    border-radius: 3px;
+}
+
+.ui-dialog-titlebar {
+    padding: 0;
+    position: relative;
+    height: 26px;
+}
+
+.ui-dialog-titlebar button.ui-dialog-titlebar-close {
+    height: 24px;
+    width: 24px;
+    border: none;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 3px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+}
+
+
+.ui-dialog-titlebar button.ui-dialog-titlebar-close:hover {
+    font-weight: bold;
+}
+
+.ui-dialog .lightbox-container {
+    padding: 24px;
+}
+
+input.form-error, select.form-error {
+    background: #ffdddd;
+    border: 1px solid red;
+}
+
+div.error-response label.form-error {
+    display: block;
+    padding: 3px 48px 3px 12px;
+    border-left: 2px solid red;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin: 0 48px 0 0;
+}
+
+div.error-response label.form-error:first-of-type {
+    margin-top: 12px;
+}
+
+div.error-response label.form-error:last-of-type {
+    margin-bottom: 12px;
+    border-bottom: 0;
+}
+
+div.error-response {
+    margin: 0 6px;
+}
+
+div.error-response div.ajax-error {
+    font-size: 14pt;
+    margin: 12px 0;
+    padding: 24px;
+    background: #ffbbbb;
+    text-align: center;
+    font-weight: bold;
+}
+
+form div.row {
+    display: block;
+    padding: 3px 0;
+}
+
+form button {
+    background: #e0e0e0;
+    border: 1px solid #666;
+    padding: 9px 18px;
+    border-radius: 3px;
+    margin: 12px 6px;
+}
+
+form button.button-center {
+    display: block;
+    margin: 12px auto;
+}
+
+form button:hover {
+    cursor: pointer;
+    background: #fff;
+}
+
+#lightbox-popupMessage {
+    width: 280px;
+}
+
+
+.ban_details p {
+    font-family: sans-serif;
+}
+
+.ban_details em {
+    display: block;
+}

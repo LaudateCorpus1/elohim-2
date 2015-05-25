@@ -1,0 +1,37 @@
+{
+    "defiler": {
+        "adad": "adad",
+        "ishhara": "ishhara",
+        "mammetum": "mammetum"
+    },
+    "scourge": {
+        "anshar": "anshar",
+        "dagan": "dagan",
+        "ellil": "ellil"
+    },
+    "devourer": {
+        "aruru": "aruru",
+        "ninurtu": "ninurtu",
+        "zaltu": "zaltu"
+    },
+    "devil": {
+        "bel": "bel",
+        "nusku": "nusku",
+        "qingu": "qingu"
+    },
+    "malefactor": {
+        "entu": "entu",
+        "kishar": "kishar",
+        "mummu": "mummu"
+    },
+    "slayer": {
+        "ereshkigal": "ereshkigal",
+        "namtar": "namtar",
+        "nergal": "nergal"
+    },
+    "fiend": {
+        "nedu": "nedu",
+        "ninsun": "ninsun",
+        "shamash": "shamash"
+    }
+}

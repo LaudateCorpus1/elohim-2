@@ -1,4 +1,4 @@
-API INDEX<br /><?php
+<?php
 
 $__DIR = '../';
 
@@ -17,7 +17,7 @@ if (!file_exists($params[0].'/index.php'))
 
 include $params[0].'/index.php';
 
-function response($success, $message = false) {
-    echo json_encode(array('success'=>$success, 'message'=>$message));
+function response($success, $message = false, $details = false) {
+    echo json_encode(array('success'=>$success, 'message'=>$message, 'details'=>$details));
     exit;
 }

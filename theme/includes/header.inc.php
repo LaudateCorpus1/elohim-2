@@ -1,16 +1,18 @@
 <!doctype html>
-<html ng-app="mandala">
+<html>
 <head>
-    <title>{{mandalaController.title}}</title>
+    <title>## Mandala Dev<?php isset($_title)?" :: ".$_title:''; ?></title>
     <script src="../../lib/jquery-2.1.3.min.js" type="text/javascript"></script>
     <script src="../../lib/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="../../lib/angular.min.js" type="text/javascript"></script>
-    <script src="//code.angularjs.org/1.2.28/angular-route.min.js"></script>
-    <script src="../../app/mandala.js"></script>
-    <script src="../../app/scripts/user.js"></script>
+    <script src="../../lib/jquery.validate.min.js" type="text/javascript"></script>
+    <?php include SCRIPTS_PATH.'scripts.inc.php'; ?>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="<?= STYLES_PATH ?>mandala.css" />
 </head>
 <body>
+<h1>Elohim Development</h1>
 <div>
-    <ng-view></ng-view>
 
 </div>
+
+<hr />

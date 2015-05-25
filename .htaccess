@@ -8,6 +8,9 @@ RewriteRule ^api/(.*)$ api/index.php?page=$1 [QSA]
 RewriteCond %{REQUEST_URI} ^/(?:static) [NC]
 RewriteRule ^static/(.*)$ static/index.php?page=$1 [QSA]
 
+RewriteCond %{REQUEST_URI} ^/(?:test) [NC]
+RewriteRule ^test/(.*)$ test/index.php?page=$1 [QSA]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !.*\.(css|js|html|png|jpg|jpeg|gif|txt)

@@ -7,3 +7,7 @@ if (!isset($__DIR))
 
 include $__DIR.'conf/vars.php';
 include $__DIR.'classes/classes.inc.php';
+
+$modules = new Modules();
+
+$user = new User();

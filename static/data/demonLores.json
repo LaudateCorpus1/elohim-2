@@ -1,28 +1,107 @@
 {
-    "lore_of_awakening": "lore_of_awakening",
-    "lore_of_chaos": "lore_of_chaos",
-    "lore_of_contamination": "lore_of_contamination",
-    "lore_of_death": "lore_of_death",
-    "lore_of_flame": "lore_of_flame",
-    "lore_of_fundament": "lore_of_fundament",
-    "lore_of_humanity": "lore_of_humanity",
-    "lore_of_light": "lore_of_light",
-    "lore_of_longing": "lore_of_longing",
-    "lore_of_paths": "lore_of_paths",
-    "lore_of_patterns": "lore_of_patterns",
-    "lore_of_portals": "lore_of_portals",
-    "lore_of_radiance": "lore_of_radiance",
-    "lore_of_storms": "lore_of_storms",
-    "lore_of_the_beast": "lore_of_the_beast",
-    "lore_of_the_celestials": "lore_of_the_celestials",
-    "lore_of_the_earth": "lore_of_the_earth",
-    "lore_of_the_firmament": "lore_of_the_firmament",
-    "lore_of_the_flesh": "lore_of_the_flesh",
-    "lore_of_the_forge": "lore_of_the_forge",
-    "lore_of_the_realms": "lore_of_the_realms",
-    "lore_of_the_spirit": "lore_of_the_spirit",
-    "lore_of_the_wild": "lore_of_the_wild",
-    "lore_of_the_winds": "lore_of_the_winds",
-    "lore_of_transfiguration": "lore_of_transfiguration",
-    "lore_of_violation": "lore_of_violation"
+    "lore_of_storms": {
+        "index": "lore_of_storms",
+        "name": "Lore of Storms",
+        "visage": "Adad"
+    },
+    "lore_of_the_firmament": {
+        "index": "lore_of_the_firmament",
+        "name": "Lore of the Firmament",
+        "visage": "Anshar"
+    },
+    "lore_of_the_flesh": {
+        "index": "lore_of_the_flesh",
+        "name": "Lore of the Flesh",
+        "visage": "Aruru"
+    },
+    "lore_of_the_celestials": {
+        "index": "lore_of_the_celestials",
+        "name": "Lore of the Celestials",
+        "visage": "Bel"
+    },
+    "lore_of_awakening": {
+        "index": "lore_of_awakening",
+        "name": "Lore of Awakening",
+        "visage": "Dagan"
+    },
+    "lore_of_the_winds": {
+        "index": "lore_of_the_winds",
+        "name": "Lore of the Winds",
+        "visage": "Ellil"
+    },
+    "lore_of_the_forge": {
+        "index": "lore_of_the_forge",
+        "name": "Lore of the Forge",
+        "visage": "Entu"
+    },
+    "lore_of_the_realms": {
+        "index": "lore_of_the_realms",
+        "name": "Lore of the Realms",
+        "visage": "Ereshkigal"
+    },
+    "lore_of_longing": {
+        "index": "lore_of_longing",
+        "name": "Lore of Longing",
+        "visage": "Ishhara"
+    },
+    "lore_of_the_earth": {
+        "index": "lore_of_the_earth",
+        "name": "Lore of the Earth",
+        "visage": "Kishar"
+    },
+    "lore_of_transfiguration": {
+        "index": "lore_of_transfiguration",
+        "name": "Lore of Transfiguration",
+        "visage": "Mammetum"
+    },
+    "lore_of_paths": {
+        "index": "lore_of_paths",
+        "name": "Lore of Paths",
+        "visage": "Mummu"
+    },
+    "lore_of_death": {
+        "index": "lore_of_death",
+        "name": "Lore of Death",
+        "visage": "Namtar"
+    },
+    "lore_of_portals": {
+        "index": "lore_of_portals",
+        "name": "Lore of Portals",
+        "visage": "Nedu"
+    },
+    "lore_of_the_spirit": {
+        "index": "lore_of_the_spirit",
+        "name": "Lore of the Spirit",
+        "visage": "Nergal"
+    },
+    "lore_of_patterns": {
+        "index": "lore_of_patterns",
+        "name": "Lore of Patterns",
+        "visage": "Ninsun"
+    },
+    "lore_of_the_wild": {
+        "index": "lore_of_the_wild",
+        "name": "Lore of the Wild",
+        "visage": "Ninurtu"
+    },
+    "lore_of_flame": {
+        "index": "lore_of_flame",
+        "name": "Lore of Flame",
+        "visage": "Nusku"
+    },
+    "lore_of_radiance": {
+        "index": "lore_of_radiance",
+        "name": "Lore of Radiance",
+        "visage": "Qingu"
+    },
+    "lore_of_light": {
+        "index": "lore_of_light",
+        "name": "Lore of Light",
+        "visage": "Shamash"
+    },
+    "lore_of_the_beast": {
+        "index": "lore_of_the_beast",
+        "name": "Lore of the Beast",
+        "visage": "Zaltu"
+    }
 }
