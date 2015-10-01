@@ -3,7 +3,7 @@ $user = new User();
 if (!$user->userIsLoggedIn()) {
 ?>
 
-<div class="userLogin module form" id="userLogin">
+<div class="userLogin module module-small form" id="userLogin">
     <form id="userLogin-form" novalidate="novalidate">
         <div class="row">
             <label for="userLogin-username">Username</label>
@@ -22,7 +22,7 @@ if (!$user->userIsLoggedIn()) {
 } else {
 ?>
 
-<div class="userLogout module form" id="userLogout">
+<div class="userLogout module module-small form" id="userLogout">
     <button class="button-small form-button user-logout">Logout</button>
 </div>
 

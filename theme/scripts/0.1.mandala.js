@@ -1,5 +1,14 @@
 $(document).ready(function() {
     initLightboxes();
+    $('input.datepicker').datepicker({
+        dateFormat: "yy-mm-dd",
+        changeMonth: true,
+        changeYear: true,
+        prevText: "<",
+        nextText: ">",
+        minDate: new Date(1600, 1 - 1, 1),
+        yearRange: "1600:2020"
+    });
 });
 
 

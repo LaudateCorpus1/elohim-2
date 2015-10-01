@@ -1,11 +1,6 @@
 {
     "worldofdarknessmortal": "worldofdarknessmortal",
     "vampirethemasquerade": {
-        "ghoul": {
-            "independent": "independent",
-            "camarilla": "camarilla",
-            "sabbat": "sabbat"
-        },
         "vampire": {
             "independent": {
                 "assamite": "assamite",
@@ -76,10 +71,14 @@
                 "tzimisce": "tzimisce",
                 "ventrueantitribu": "ventrueantitribu"
             }
+        },
+        "ghoul": {
+            "independent": "independent",
+            "camarilla": "camarilla",
+            "sabbat": "sabbat"
         }
     },
     "demonthefallen": {
-        "thrall": "thrall",
         "demon": {
             "devil": {
                 "cryptic": "cryptic",
@@ -137,7 +136,8 @@
                 "reconciler": "reconciler",
                 "unaligned": "unaligned"
             }
-        }
+        },
+        "thrall": "thrall"
     },
     "magetheascension": {
         "technocraticunion": {

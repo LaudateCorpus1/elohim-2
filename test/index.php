@@ -194,6 +194,7 @@
 <div id="container">
     <div class="wrapper">
         <h1>Header 1</h1>
+        <?php include 'sheet.php'; ?>
     </div>
 </div>
 <div id="footer">

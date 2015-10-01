@@ -1,0 +1,53 @@
+{
+    "home": {
+        "link": "/",
+        "label": "Home"
+    },
+    "setting": {
+        "link": "/setting",
+        "label": "Setting",
+        "dependents": {
+            "coventry": {
+                "link": "/coventry",
+                "label": "Coventry, Maine"
+            },
+            "history": {
+                "link": "/history",
+                "label": "History of Coventry"
+            },
+            "vampire": {
+                "link": "/vampire",
+                "label": "The Masquerade",
+                "dependents": {
+                    "independents": {
+                        "link": "/independents",
+                        "label": "Independent Territories of Coventry"
+                    },
+                    "camarilla": {
+                        "link": "/camarilla",
+                        "label": "Camarilla Court of Coventry"
+                    }
+                }
+            },
+            "maps": {
+                "link": "/maps",
+                "label": "Map of Coventry"
+            }
+        }
+    },
+    "character": {
+        "link": "/character",
+        "label": "Character",
+        "class": "logged-in",
+        "dependents": {
+            "create": {
+                "link": "/create",
+                "label": "Create New Character"
+            },
+            "manage": {
+                "link": "/manage",
+                "label": "Manage Your Characters"
+            }
+        }
+    }
+}

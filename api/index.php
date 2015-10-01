@@ -1,6 +1,6 @@
 <?php
 
-$__DIR = '../';
+$__DIR = './';
 
 include '../init.inc.php';
 

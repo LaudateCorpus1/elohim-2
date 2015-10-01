@@ -10,6 +10,5 @@ $result = $user->loginUser($_REQUEST['username'], $_REQUEST['password']);
 
 
 $session = new Session();
-print_r($session);
 
 response($result[0], $result[1], $session->get('user.ban'));

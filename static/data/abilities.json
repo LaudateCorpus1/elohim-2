@@ -1,0 +1,197 @@
+{
+    "talent": {
+        "name": "Talent",
+        "abilities": {
+            "alertness": {
+                "index": "alertness",
+                "name": "Alertness",
+                "type": "talent"
+            },
+            "athletics": {
+                "index": "athletics",
+                "name": "Athletics",
+                "type": "talent"
+            },
+            "awareness": {
+                "index": "awareness",
+                "name": "Awareness",
+                "type": "talent"
+            },
+            "brawl": {
+                "index": "brawl",
+                "name": "Brawl",
+                "type": "talent"
+            },
+            "empathy": {
+                "index": "empathy",
+                "name": "Empathy",
+                "type": "talent"
+            },
+            "expression": {
+                "index": "expression",
+                "name": "Expression",
+                "type": "talent"
+            },
+            "intimidation": {
+                "index": "intimidation",
+                "name": "Intimidation",
+                "type": "talent"
+            },
+            "intuition": {
+                "index": "intuition",
+                "name": "Intuition",
+                "type": "talent"
+            },
+            "leadership": {
+                "index": "leadership",
+                "name": "Leadership",
+                "type": "talent"
+            },
+            "streetwise": {
+                "index": "streetwise",
+                "name": "Streetwise",
+                "type": "talent"
+            },
+            "subterfuge": {
+                "index": "subterfuge",
+                "name": "Subterfuge",
+                "type": "talent"
+            }
+        }
+    },
+    "skill": {
+        "name": "Skills",
+        "abilities": {
+            "animal-ken": {
+                "index": "animal-ken",
+                "name": "Animal Ken",
+                "type": "skill"
+            },
+            "crafts": {
+                "index": "crafts",
+                "name": "Crafts",
+                "type": "skill"
+            },
+            "demolitions": {
+                "index": "demolitions",
+                "name": "Demolitions",
+                "type": "skill"
+            },
+            "drive": {
+                "index": "drive",
+                "name": "Drive",
+                "type": "skill"
+            },
+            "etiquette": {
+                "index": "etiquette",
+                "name": "Etiquette",
+                "type": "skill"
+            },
+            "firearms": {
+                "index": "firearms",
+                "name": "Firearms",
+                "type": "skill"
+            },
+            "larceny": {
+                "index": "larceny",
+                "name": "Larceny",
+                "type": "skill"
+            },
+            "meditation": {
+                "index": "meditation",
+                "name": "Meditation",
+                "type": "skill"
+            },
+            "melee": {
+                "index": "melee",
+                "name": "Melee",
+                "type": "skill"
+            },
+            "performance": {
+                "index": "performance",
+                "name": "Performance",
+                "type": "skill"
+            },
+            "stealth": {
+                "index": "stealth",
+                "name": "Stealth",
+                "type": "skill"
+            },
+            "survival": {
+                "index": "survival",
+                "name": "Survival",
+                "type": "skill"
+            },
+            "technology": {
+                "index": "technology",
+                "name": "Technology",
+                "type": "skill"
+            }
+        }
+    },
+    "knowledge": {
+        "name": "Knowledges",
+        "abilities": {
+            "academics": {
+                "index": "academics",
+                "name": "Academics",
+                "type": "knowledge"
+            },
+            "computer": {
+                "index": "computer",
+                "name": "Computer",
+                "type": "knowledge"
+            },
+            "cosmology": {
+                "index": "cosmology",
+                "name": "Cosmology",
+                "type": "knowledge"
+            },
+            "enigmas": {
+                "index": "enigmas",
+                "name": "Enigmas",
+                "type": "knowledge"
+            },
+            "finance": {
+                "index": "finance",
+                "name": "Finance",
+                "type": "knowledge"
+            },
+            "investigation": {
+                "index": "investigation",
+                "name": "Investigation",
+                "type": "knowledge"
+            },
+            "law": {
+                "index": "law",
+                "name": "Law",
+                "type": "knowledge"
+            },
+            "medicine": {
+                "index": "medicine",
+                "name": "Medicine",
+                "type": "knowledge"
+            },
+            "occult": {
+                "index": "occult",
+                "name": "Occult",
+                "type": "knowledge"
+            },
+            "politics": {
+                "index": "politics",
+                "name": "Politics",
+                "type": "knowledge"
+            },
+            "religion": {
+                "index": "religion",
+                "name": "Religion",
+                "type": "knowledge"
+            },
+            "science": {
+                "index": "science",
+                "name": "Science",
+                "type": "knowledge"
+            }
+        }
+    }
+}

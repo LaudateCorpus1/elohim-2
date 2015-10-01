@@ -1,326 +1,407 @@
 {
     "worldofdarknessmortal": {
         "name": "World of Darkness: Mortal",
-        "restricted": false
+        "restricted": false,
+        "icon": "general/mortal"
     },
     "vampirethemasquerade": {
         "name": "Vampire: The Masquerade",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/vampire"
     },
     "demonthefallen": {
         "name": "Demon: The Fallen",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/demon"
     },
     "magetheascension": {
         "name": "Mage: The Ascension",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/mage"
     },
     "vampire": {
         "name": "Vampire",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/vampire"
     },
     "ghoul": {
         "name": "Ghoul",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/ghoul"
     },
     "enlightenedcitizen": {
         "name": "Enlightened Citizen",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/technocracy"
     },
     "extraordinarycitizen": {
         "name": "Extraordinary Citizen",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/sorcerer"
     },
     "mage": {
         "name": "Mage",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/mage"
     },
     "sorcererpsychic": {
         "name": "Sorcerer/Psychic",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/sorcerer"
     },
     "demon": {
         "name": "Demon",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/demon"
     },
     "thrall": {
         "name": "Thrall",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/thrall"
     },
     "akashicbrotherhood": {
         "name": "Akashic Brotherhood",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/akashicbrotherhood"
     },
     "anarch": {
         "name": "Anarch",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/anarch"
     },
     "assamite": {
         "name": "Assamite",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/assamites"
     },
     "assamiteantitribu": {
         "name": "Assamite Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/assamiteantitribu"
     },
     "baali": {
         "name": "Baali",
-        "restricted": true
+        "restricted": true,
+        "icon": "vampire/baali"
     },
     "brujah": {
         "name": "Brujah",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/brujah"
     },
     "brujahantitribu": {
         "name": "Brujah Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/brujahantitribu"
     },
     "caitiff": {
         "name": "Caitiff",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/caitiff"
     },
     "camarilla": {
         "name": "Camarilla",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/camarilla"
     },
     "celestialchorus": {
         "name": "Celestial Chorus",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/celestialchorus"
     },
     "cryptic": {
         "name": "Cryptic",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/cryptic"
     },
     "cultofecstasy": {
         "name": "Cult of Ecstasy",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/cultofecstasy"
     },
     "daughtersofcacophony": {
         "name": "Daughters of Cacophony",
-        "restricted": true
+        "restricted": true,
+        "icon": "vampire/daughtersofcacophony"
     },
     "defiler": {
         "name": "Defiler",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/defiler"
     },
     "devil": {
         "name": "Devil",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/devil"
     },
     "devourer": {
         "name": "Devourer",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/devourer"
     },
     "dreamspeakers": {
         "name": "Dreamspeakers",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/dreamspeakers"
     },
     "euthanatos": {
         "name": "Euthanatos",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/euthanatos"
     },
     "faustian": {
         "name": "Faustian",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/faustian"
     },
     "fiend": {
         "name": "Fiend",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/fiend"
     },
     "followersofset": {
         "name": "Follower of Set",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/followersofset"
     },
     "gangrel": {
         "name": "Gangrel",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/gangrel"
     },
     "gangrelantitribu": {
         "name": "Gangrel Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/gangrelantitribu"
     },
     "gargoyle": {
         "name": "Gargoyle",
-        "restricted": true
+        "restricted": true,
+        "icon": "vampire/gargoyle"
     },
     "giovanni": {
         "name": "Giovanni",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/giovanni"
     },
     "harbingersofskulls": {
         "name": "Harbingers of Skulls",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/harbingersofskulls"
     },
     "hollowone": {
         "name": "Hollow One",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/hollowones"
     },
     "independent": {
         "name": "Independent",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/independent"
     },
     "iterationx": {
         "name": "Iteration X",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/iterationx"
     },
     "lasombra": {
         "name": "Lasombra",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/lasombra"
     },
     "lasombraantitribu": {
         "name": "Lasombra Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/lasombraantitribu"
     },
     "luciferan": {
         "name": "Luciferan",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/luciferan"
     },
     "malefactor": {
         "name": "Malefactor",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/malefactor"
     },
     "malkavian": {
         "name": "Malkavian",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/malkavian"
     },
     "malkavianantitribu": {
         "name": "Malkavian Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/malkavianantitribu"
     },
     "nagaraja": {
         "name": "Nagaraja",
-        "restricted": true
+        "restricted": true,
+        "icon": "vampire/nagaraja"
     },
     "newworldorder": {
         "name": "New World Order",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/newworldorder"
     },
     "ninetraditionsofmagic": {
         "name": "Nine Traditions of Magic",
-        "restricted": true
+        "restricted": true,
+        "icon": "mage/mage"
     },
     "nosferatu": {
         "name": "Nosferatu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/nosferatu"
     },
     "nosferatuantitribu": {
         "name": "Nosferatu Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/nosferatuantitribu"
     },
     "orderofhermes": {
         "name": "Order of Hermes",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/orderofhermes"
     },
     "orphan": {
         "name": "Orphan",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/mage"
     },
     "pander": {
         "name": "Pander",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/pander"
     },
     "progenitors": {
         "name": "Progenitors",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/progenitors"
     },
-    "ravager": {
-        "name": "Ravager",
-        "restricted": false
+    "ravener": {
+        "name": "Ravener",
+        "restricted": false,
+        "icon": "demon/ravener"
     },
     "ravnos": {
         "name": "Ravnos",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/ravnos"
     },
     "ravnosantitribu": {
         "name": "Ravnos Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/ravnosantitribu"
     },
     "reconciler": {
         "name": "Reconciler",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/reconciler"
     },
     "sabbat": {
         "name": "Sabbat",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/sabbat"
     },
     "salubri": {
         "name": "Salubri",
-        "restricted": true
+        "restricted": true,
+        "icon": "vampire/salubri"
     },
     "salubriantitribu": {
         "name": "Salubri Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/salubriantitribu"
     },
     "samedi": {
         "name": "Samedi",
-        "restricted": true
+        "restricted": true,
+        "icon": "vampire/samedi"
     },
     "scourge": {
         "name": "Scourge",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/scourge"
     },
     "serpentsofthelight": {
         "name": "Serpents of the Light",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/serpentsofthelight"
     },
     "slayer": {
         "name": "Slayer",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/slayer"
     },
     "sonsofether": {
         "name": "Sons of Ether",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/sonsofether"
     },
     "syndicate": {
         "name": "Syndicate",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/syndicate"
     },
-    "technocracticunion": {
+    "technocraticunion": {
         "name": "Technocratic Union",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/technocracy"
     },
     "toreador": {
         "name": "Toreador",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/toreador"
     },
     "toreadorantitribu": {
         "name": "Toreador Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/toreadorantitribu"
     },
     "tremere": {
         "name": "Tremere",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/tremere"
     },
     "truebrujah": {
         "name": "True Brujah",
-        "restricted": true
+        "restricted": true,
+        "icon": "vampire/truebrujah"
     },
     "tzimisce": {
         "name": "Tzimisce",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/tzimisce"
     },
     "unaligned": {
         "name": "Unaligned",
-        "restricted": false
+        "restricted": false,
+        "icon": "demon/demon"
     },
     "ventrue": {
         "name": "Ventrue",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/ventrue"
     },
     "ventrueantitribu": {
         "name": "Ventrue Antitribu",
-        "restricted": false
+        "restricted": false,
+        "icon": "vampire/ventrueantitribu"
     },
     "verbena": {
         "name": "Verbena",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/verbena"
     },
     "virtualadepts": {
         "name": "Virtual Adepts",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/virtualadepts"
     },
     "voidengineers": {
         "name": "Void Engineers",
-        "restricted": false
+        "restricted": false,
+        "icon": "mage/voidengineers"
     }
 }

@@ -6,7 +6,7 @@ RewriteCond %{REQUEST_URI} ^/(?:api) [NC]
 RewriteRule ^api/(.*)$ api/index.php?page=$1 [QSA]
 
 RewriteCond %{REQUEST_URI} ^/(?:static) [NC]
-RewriteRule ^static/(.*)$ static/index.php?page=$1 [QSA]
+RewriteRule ^static/(.*)$ static/index.php?file=$1 [QSA]
 
 RewriteCond %{REQUEST_URI} ^/(?:test) [NC]
 RewriteRule ^test/(.*)$ test/index.php?page=$1 [QSA]

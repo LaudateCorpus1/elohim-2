@@ -2,7 +2,12 @@
     font-family: "Raleway", Verdana, Helvetica, sans-serif;
 }
 
+pre { font-family: Courier New, monospace; }
+
 body {
+    font-family: "Raleway",Verdana,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
     font-size: 10pt;
 }
 
@@ -11,6 +16,10 @@ input {
     padding: 2px;
     border-radius: 3px;
     background: white;
+}
+
+.row {
+    display: block;
 }
 
 .module {
@@ -45,6 +54,137 @@ div.helptext p {
     margin-top: 0;
     padding: 0 48px 0 6px;
     color: rgba(0,0,0,0.8);
+}
+
+#menu {
+    border-bottom: 1px solid #999;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    background: transparent;
+}
+
+#menu ul:first-of-type {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul:first-of-type li {
+    margin: 0;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    color: #333;
+    position: relative;
+    line-height: 24px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 3px 24px;
+}
+
+#menu ul:first-of-type li:hover {
+    background: #a30011;
+    color: white;
+}
+
+#menu ul:first-of-type li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    z-index: 10;
+    border: solid #999;
+    border-width: 1px;
+}
+
+#menu ul:first-of-type li li {
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+    display: block;
+    line-height: normal;
+    border: solid rgba(0,0,0,0);
+    border-width: 0 0 0 3px;
+    background: white;
+    color: #999;
+}
+
+#menu ul:first-of-type li li a {
+    padding: 6px;
+}
+
+#menu ul:first-of-type li ul ul {
+    position: relative;
+}
+
+#menu ul:first-of-type li:hover ul {
+    display: block;
+    width: 200px;
+}
+
+#menu ul:first-of-type li:hover li ul {
+    display: none;
+}
+
+#menu ul:first-of-type li li:hover {
+    border-color: #a30011;
+    background: #ddd;
+    color: black;
+}
+
+#menu ul:first-of-type li li:hover ul {
+    display: block;
+}
+
+#menu ul:first-of-type li li ul {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: -1px;
+    left: 197px;
+    width: 200px;
+    z-index: 20;
+}
+
+#menu ul:first-of-type li li li {
+}
+
+
+#header {
+    background: #ddd none repeat scroll 0 0;
+    display: block;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+#footer {
+    background: #a30011 none repeat scroll 0 0;
+    color: white;
+    padding: 36px 0;
+}
+
+.container {
+    background: transparent none repeat scroll 0 0;
+    min-height: 600px;
+    padding: 92px 0 128px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-width: 1000px;
+    width: 1000px;
+    padding: 0 9px;
+    position: relative;
 }
 
 .ui-dialog .lightbox-container {
@@ -172,7 +312,7 @@ form button:hover {
 }
 
 #lightbox-popupMessage {
-    width: 280px;
+    width: 360px;
 }
 
 
@@ -183,3 +323,116 @@ form button:hover {
 .ban_details em {
     display: block;
 }
+
+body.userLoggedOut .logged-in,body.userLoggedIn .logged-out { display: none!important; }
+
+
+#userLogin, #userLogout {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    padding: 0;
+    font-size: 8.5pt;
+    z-index: 1;
+}
+
+#userLogin div.row {
+    padding: 2px 0;
+}
+
+#userLogin input, #userLogin button, #userLogout button {
+    font-size: 8pt;
+}
+
+#userLogin button, #userLogout button {
+    margin: 0;
+    padding: 2px;
+    float: right;
+}
+
+#userLogout button  {
+    margin: 24px 0;
+}
+
+#userLogin label {
+    display: inline-block;
+    width: 80px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+
+.ui-datepicker { background: #fff; border: 1px solid #333; padding: 3px; }
+.ui-datepicker-next, .ui-datepicker-prev { cursor: pointer; font-weight: bold; padding: 2px 8px; border-radius: 2px; }
+.ui-datepicker-next:hover, .ui-datepicker-prev:hover { color: #a30011; background: #ccc; }
+.ui-datepicker-next { float: right; }
+.ui-datepicker-prev { float: left; }
+.ui-datepicker-title { text-align: center; }
+.ui-datepicker-title select { font-size: 9pt; border: none; padding: 1px; margin: 0 4px; }
+.ui-datepicker-calendar th, .ui-datepicker-calendar td {  text-align: center; padding: 0;}
+.ui-datepicker-calendar td a { color: #333; text-decoration: none; width: 24px; display: inline-block; padding: 2px }
+.ui-datepicker-calendar td:hover { background: #a30011; }
+.ui-datepicker-calendar td:hover a { color: white; }
+.ui-datepicker-calendar td.ui-datepicker-current-day { background: #ffbbbb; }
+
+
+
+.clear { clear: both; display: block; }
+
+
+#characterSheetWrapper #characterSheet { display: none; }
+#characterSheetWrapper.venue-selected #characterSheet { display: block; }
+#characterSheetWrapper.venue-selected #venues { display: none; }
+
+#venues { margin-bottom: 24px; text-align: center; }
+#venues button.venue-button { background: transparent; border: none; border-radius: 0; padding: 3px 9px; margin-right: 12px; font-size: 9.5pt; text-transform: uppercase; cursor: pointer; }
+#venues button.venue-button:hover { background: rgba(0,0,0,0.5); color: white; }
+#venues button.venue-button.venue-continue { display: none; }
+#venues.venue-selected button.venue-button.venue-continue { display: inline-block; }
+#venues #venueSelected { padding-bottom: 6px; margin-bottom: 6px; border-bottom: 1px solid #666; }
+#venues #venueOptions { margin-bottom: 12px; }
+#venues #venueOptions,#venues #venueSelected { text-align: center; }
+#venues #venueOptions .venue { display: inline-block; margin: 12px; padding: 12px; background: #fff; position: relative; border-radius: 2px; cursor: pointer; }
+#venues #venueOptions .venue h4 {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: white;
+    height: 40px;
+    left: 0;
+    margin: 0;
+    padding: 12px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    vertical-align: top;
+    width: 120px;
+    z-index: 1;
+}
+#venues #venueOptions .venue.selected { background: white; cursor: initial; }
+#venues #venueOptions .venue.selected:hover { background: white; }
+#venues #venueOptions .venue.selected img { opacity: 1.0; }
+#venues #venueOptions .venue.selected h4 { }
+#venues #venueOptions .venue:hover { background: #ccc; }
+#venues #venueOptions .venue img { opacity: 0.6; }
+#venues #venueOptions .venue:hover img { opacity: 1.0; }
+#venues h3 { display: none; }
+#venues.venue-selected h3 {display: block; text-align: center;}
+
+#characterSheet { background: pink; }
+#characterSheet h3 { clear: both; display: block; margin: 0; padding: 12px 0 6px; }
+#characterSheet .row { background: yellow; margin: 3px 0; line-height: 24px; }
+#characterSheet .column { float: left; background: #999; border-right: 1px solid #333; padding-right: 6px; margin-right: 6px; }
+#characterSheet .column.column-first {}
+#characterSheet .column.column-last { border-right: none; margin-right: 0; padding-right: 0; }
+#characterSheet .columns-two .column { width: 493px; }
+#characterSheet .columns-three .column { width: 324px; }
+#characterSheet .columns-two label { display: inline-block; width: 140px; font-size: 9pt; }
+#characterSheet .columns-three label { display: inline-block; width: 110px; font-size: 9pt; }
+#characterSheet .columns-three input.specialisation { width: 110px; border: black solid; border-width: 0 0 1px; border-radius: 0; font-size: 8.5pt; margin-right: 17px; }
+#characterSheet .dot-row .dot-block { line-height: 24px; }
+#characterSheet .dot-row span, #characterSheet .dot-row label { vertical-align: middle; }
+#characterSheet .dot-row .dot-block img { height: 16px; width: 16px; margin-top: -2px; margin-left: -1px; vertical-align: middle; cursor: pointer; }
+

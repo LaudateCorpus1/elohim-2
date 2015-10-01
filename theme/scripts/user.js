@@ -1,9 +1,11 @@
 $(document).ready(function () {
-    $('#lightbox-userRegister').bindUserRegisterForm();
+    $('#userRegister').bindUserRegisterForm();
     $('#userLogin').bindUserLoginForm();
     $('#userEdit').bindUserEditForm();
+
+    //$('button.user-logout, a.user-logout').bind('click.logoutUser', logoutUser());
+
     $('button.user-logout, a.user-logout').bind('click.logoutUser', function() {
-        console.log('click');
         logoutUser();
     });
 });
@@ -65,9 +67,8 @@ $.fn.bindUserLoginForm= function() {
                 type: 'post',
                 dataType: 'JSON',
                 success: function(data) {
-                    console.log(data);
                     if (data.success) {
-                        //window.location = window.location;
+                        window.location = window.location;
                     } else {
                         var message = "";
 
@@ -180,6 +181,57 @@ $.fn.bindUserEditForm = function () {
                 type: 'post',
                 dataType: 'JSON',
                 success: function(data) {
+                    if (data.success) {
+                        var message = "<p>Your account details have been changed.</p>";
+                        if (data.details) {
+                            if (data.details.deactivate) {
+                                message += "<p>Your account will need to be reactivated. Please check your email for account activation instructions.</p><p>You will be redirected in 5 seconds.</p>";
+                            } else if (data.details.password) {
+                                message += "<p>You will need to login with your new password.</p><p>You will be redirected in 5 seconds.</p>";
+                            }
+                        }
+                        popupMessage('Edit Successful', message);
+
+                        if (data.details && (data.details.deactivate || data.details.password)) {
+                            setTimeout(function() {
+                                window.location = window.location;
+                            }, 5500);
+                        }
+                    } else {
+                        var error = "";
+                        switch (data.message) {
+                            case "USER_NOT_LOGGED_IN":
+                                error = "You are not currently logged in.";
+                                break;
+                            case "USER_RECORD_NOT_FOUND":
+                                error = "No user record could be found. Please reload the page.";
+                                break;
+                            case "FIELDS_UNCHANGED":
+                                error = "You have requested no changes to your current data.";
+                                break;
+                            case "PASSWORD_ERROR":
+                                error = "Please enter the correct password for your account.";
+                                break;
+                            case "PASSWORD_CONFIRM":
+                                error = "Password confirmation does not match.";
+                                break;
+                            case "PASSWORD_LENGTH":
+                                error = "Password must be a at least 8 characters in length.";
+                                break;
+                            case "EMAIL_CONFIRM":
+                                error = "Email confirmation does not match.";
+                                break;
+                            case "EMAIL_INVALID":
+                                error = "Please enter a valid email address.";
+                                break;
+                            default:
+                                error = "An unknown error occured. Please try again.";
+                                break;
+                        }
+                        form.find('.error-response').html('<div class="ajax-error">' + error + '</div>');
+                    }
+                },
+                error: function() {
 
                 }
             })
@@ -192,8 +244,6 @@ $.fn.bindUserRegisterForm = function () {
         $username = form.find('input[name="username"]'),
         $password = form.find('input[name="password"]'),
         $email = form.find('input[name="email"]');
-
-    form[0].reset();
 
     var rules = {
         username: {
@@ -247,12 +297,15 @@ $.fn.bindUserRegisterForm = function () {
         }
     };
 
-    validateForm(form, rules, messages);
 
     $('#userRegister-submit').prop('disabled', false);
 
     $('#userRegister-submit').bind('click.registerUser', function (e) {
+        console.log('click');
         e.preventDefault();
+
+        validateForm(form, rules, messages);
+
         if (form.valid()) {
             var data = {
                 username: $username.val(),
@@ -271,6 +324,13 @@ $.fn.bindUserRegisterForm = function () {
                 success: function(data) {
                     form.find('#userRegister-submit').prop('disabled', false);
                     if (data.success) {
+                        $('#lightbox-userRegister').dialog("close");
+
+                        popupMessage('Registration Successful', "<p>Thanks! Your account has been registered.</p><p><strong>Please check your email for your account activation email.</strong></p><p>You will be redirected in 5 seconds.</p>");
+
+                        setTimeout(function() {
+                            window.location = "/";
+                        }, 5500);
 
                     } else {
                         var error;
@@ -293,7 +353,6 @@ $.fn.bindUserRegisterForm = function () {
                             case "INVALID_EMAIL_ADDRESS":
                                 error = "Your email address is invalid.";
                                 break;
-                            case "ERROR_CREATING_USER":
                             default:
                                 error = "An unknown error has occurred. Please try again.";
                                 break;
@@ -302,7 +361,7 @@ $.fn.bindUserRegisterForm = function () {
                     }
                 },
                 error: function() {
-                    form.find('#userRegister-submit').prop('disabled', true);
+                    form.find('#userRegister-submit').prop('disabled', false);
                     form.find('.error-response').html('<div class="ajax-error">An unknown error has occurred. Please try again.</div>');
                 }
             });

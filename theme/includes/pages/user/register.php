@@ -1,0 +1,4 @@
+
+<?php
+
+$modules->import('userRegister');

@@ -50,6 +50,8 @@ class User {
         if ($db->query('insert into user (loginName, emailAddress, encPassword, signupDate, accountActivation, timezoneOffset, userEnabled) values (:loginName, :emailAddress, :encPassword, :signupDate, :accountActivation, :timezoneOffset, :userEnabled)', $params) != 1)
             return array(false, 'ERROR_CREATING_USER');
 
+        $this->sendActivationEmail($db->getLastID(), $params[':accountActivation'], $params[':loginName'], $params[':emailAddress']);
+
         return array(true, 'USER_CREATED');
     }
 
@@ -189,7 +191,6 @@ class User {
             }
         }
 
-
         $deactivateAccount = false;
         if (strlen($email) > 0) {
             if ($email != $emailConfirm) {
@@ -219,7 +220,7 @@ class User {
 
         if ($db->query($query, $params) == 1) {
             $this->logUserInteraction($this->user['userID'], "EDIT_USER_COMPLETE".($deactivateAccount?"_DEACTIVATE":"").($passwordChange?"_PASSWORDCHANGE":""));
-            if ($deactivateAccount) $this->deactivateAccount();
+            if ($deactivateAccount) $this->deactivateAccount($email);
             else if ($passwordChange) $this->logoutUser();
             return array('true', 'USER_EDIT', array('deactivate' => $deactivateAccount, 'password' => $passwordChange));
         }
@@ -239,7 +240,7 @@ class User {
         return (!$this->user)?false:$this->user['timezoneOffset'];
     }
 
-    private function deactivateAccount() {
+    private function deactivateAccount($email) {
         if (!$this->user)
             return false;
 
@@ -252,11 +253,13 @@ class User {
         );
 
         if ($db->query('update user set accountActivation=:activation, userEnabled=:enabled where userID=:userid', $params) == 1) {
-
+            if ($this->sendActivationEmail($this->user["userID"], $params[":activation"], $this->user["loginName"], $email)) {
+                $this->logoutUser();
+                return true;
+            }
         }
 
-        //$this->logoutUser();
-        return true;
+        return false;
     }
 
     private function logUserInteraction($userid, $type = 'USER_REQUEST_FAILURE_UNKNOWN') {
@@ -352,8 +355,19 @@ class User {
         return $str;
     }
 
-    private function sendActivationEmail($activation, $userid) {
+    private function sendActivationEmail($userid, $activation, $username, $email) {
+        $template = new MailTemplates();
+        $tpl = $template->mergeTemplate('activateAccount', array('username' => $username, 'code' => $activation));
+        if (!$tpl)
+            return false;
 
+        $this->logUserInteraction($userid, "ACCOUNT_ACTIVATION_EMAIL_SENT");
+
+        return Sendmail::sendHTMLMail($email, array(
+            'subject' => "Manifest Destiny Account Activation",
+            'text_message' => $tpl['text'],
+            'html_message' => $tpl['html']
+        ));
     }
 
     function validatePasswordLength($password) {

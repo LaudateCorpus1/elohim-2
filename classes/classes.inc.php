@@ -6,6 +6,7 @@ foreach (glob(CLASS_PATH.'*/*.class.php') as $f) {
 
 /* BEGIN SESSION INITIALIZATION */
 $session = new Session();
+$mailtemplates = new MailTemplates();
 
 ini_set('session.save_handler', 'files');
 session_set_save_handler($session, true);
@@ -17,4 +18,5 @@ if (!$session->isValid(5)) {
     $session->forget();
 }
 /* END SESSION INITIALIZATION */
+
 

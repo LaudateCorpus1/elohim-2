@@ -1,8 +1,4 @@
-<div class="module userRegister">
-    <button data-target="#lightbox-userRegister" class="button form-button lightbox">Register</button>
-</div>
-
-<div class="lightbox lightbox-container" id="lightbox-userRegister" data-class="userRegister" data-title="Register your Account">
+<div class="userRegister module form" id="userRegister">
     <form id="userRegister-form" novalidate="novalidate">
     <div class="form form-userRegister">
         <div class="row">
